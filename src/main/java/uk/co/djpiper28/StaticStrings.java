@@ -67,6 +67,9 @@ public class StaticStrings {
             "}\n" +
             "</style>\n";
 
+    /**
+     * JS to show and hide my repos
+     */
     public static final String JS_SHOW_HIDE_REPOS = "<script>\n" +
             "function show() {\n" +
             "    let button = document.getElementById(\"showhiderepos\");\n" +
