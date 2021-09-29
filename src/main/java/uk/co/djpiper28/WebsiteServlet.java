@@ -13,6 +13,12 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.charset.StandardCharsets;
 
+/**
+ * the index servlet
+ *
+ * @version 1.0.0
+ * @author Danny
+ */
 public class WebsiteServlet extends HttpServlet {
 
     @Override

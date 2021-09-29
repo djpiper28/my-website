@@ -90,12 +90,12 @@ public class StaticStrings {
     /**
      * this is the constant for the year number as seen in {@link StaticStrings#ABOUT_ME_HTML ABOUT_ME_HTML}
      */
-    public static String YEAR_NUMBER = "second";
+    public static final String YEAR_NUMBER = "second";
 
     /**
      * the HTML for the about me blurb under my mugshot
      */
-    public static String ABOUT_ME_HTML = "<p class=\"middle-text\">\n" +
+    public static final String ABOUT_ME_HTML = "<p class=\"middle-text\">\n" +
             "Hello! I am Danny Piper (they/them) and, I am a student at Royal Holloway studying an embedded master in Computer Science\n" +
             "(Information Security). I am currently in my " + YEAR_NUMBER + " and enjoying it.<br>\n" +
             "I am an avid programmer and mainly program in Python, Java and, C. In-fact, this website is built with Java and Jetty,\n" +

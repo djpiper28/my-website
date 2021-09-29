@@ -24,15 +24,21 @@ import static uk.co.djpiper28.StaticStrings.GITHUB_USER;
  */
 public class MyRepos {
 
-    private static final String GITHUB_ACCEPT_HEADER = "application/vnd.github.v3+json";
     /**
-     * the time in ms to update the repo list. Current default is 10 minutes.
+     * header for the github API
+     */
+    private static final String GITHUB_ACCEPT_HEADER = "application/vnd.github.v3+json";
+
+    /**
+     * the time in ms to update the repo list. Current default is 10 minutes
      */
     private static final long UPDATE_REPOS_EVER_X_MS = 1000L * 60L * 60L;
+
     /**
      * whether a daemon that updates the repos has been started
      */
     private boolean daemonStarted;
+
     /**
      * cached repos
      */
@@ -44,7 +50,7 @@ public class MyRepos {
     private long lastUpdateTime;
 
     /**
-     * inits the class and performs one refresh. The refresh performed here will fail silently.
+     * inits the class and performs one refresh. The refresh performed here will fail silently
      *
      * @since 1.0.0
      */
@@ -109,7 +115,7 @@ public class MyRepos {
      *
      * @throws IllegalStateException throws when a daemon to do this already started
      */
-    public void startUpdateDaemon() {
+    public synchronized void startUpdateDaemon() {
         if (daemonStarted) {
             throw new IllegalStateException("A daemon for updating the repo list has already been started.");
         }
@@ -202,7 +208,7 @@ public class MyRepos {
     }
 
     @Override
-    public String toString() {
+    public synchronized String toString() {
         return "MyRepos{" +
                 "daemonStarted=" + daemonStarted +
                 ", repos=" + repos +

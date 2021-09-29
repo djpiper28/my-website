@@ -148,14 +148,6 @@ public class Repo implements Comparable {
         this.fork = fork;
     }
 
-    public long getStargazers_count() {
-        return stargazers_count;
-    }
-
-    public void setStargazers_count(long stargazers_count) {
-        this.stargazers_count = stargazers_count;
-    }
-
     /**
      * generates HTML for a summary box of this repo
      *
