@@ -1,0 +1,77 @@
+plugins {
+    id 'java'
+    id 'idea'
+    id 'application'
+    id "com.github.johnrengelman.shadow" version "7.0.0"
+    id 'org.gretty' version '2.3.1'
+}
+
+group 'djpiper28.co.uk'
+version '1.0-SNAPSHOT'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+mainClassName = 'uk.co.djpiper28.Main'
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src/main'
+        }
+        resources {
+            srcDir 'resources/'
+        }
+    }
+
+    test {
+        java {
+            srcDir 'tests/java'
+        }
+        resources {
+            srcDir 'resources/' // <=== NOT WORKING
+        }
+    }
+}
+
+dependencies {
+    implementation 'org.eclipse.jetty:jetty-server:9.4.3.v20170317'
+    implementation 'org.eclipse.jetty:jetty-servlet:9.4.3.v20170317'
+    implementation 'javax.servlet:javax.servlet-api:3.1.0'
+    implementation 'org.jsoup:jsoup:1.14.2'
+    implementation 'com.googlecode.json-simple:json-simple:1.1.1'
+
+    shadow 'com.googlecode.json-simple:json-simple:1.1.1'
+    shadow 'javax.servlet:javax.servlet-api:3.1.0'
+    shadow 'org.eclipse.jetty:jetty-server:9.4.3.v20170317'
+    shadow 'org.eclipse.jetty:jetty-servlet:9.4.3.v20170317'
+    shadow 'org.jsoup:jsoup:1.14.2'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.0'
+    testImplementation 'junit:junit:4.13.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.0'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+gretty {
+    contextPath = '/'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': mainClassName
+    }
+    archiveBaseName = 'djpiper28.co.uk'
+    archiveVersion = '0.1.0'
+}
+
+shadowJar {
+    manifest {
+        inheritFrom project.tasks.jar.manifest
+    }
+}
