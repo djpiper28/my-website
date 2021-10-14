@@ -22,7 +22,7 @@ public class ServeMugshot extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws IOException {
-        String suffix = suffixes[random.nextInt(suffixes.length)];
+        String suffix = random.nextInt() % 33 == 0 ? suffixes[random.nextInt(suffixes.length)] : "";
         String name = String.format("images/mugshot%s.jpg", suffix);
 
         try (InputStream is = ServeMugshot.class.getClassLoader().getResourceAsStream(name)) {
