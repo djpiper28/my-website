@@ -26,7 +26,7 @@ public class ServeMugshot extends HttpServlet {
         this.images = new LinkedList<>();
 
         // Load images into images list (most common at the end)
-        this.addImage("mugshot3.jpg");
+        this.addImage("mugshot3.png");
         this.addImage("mugshot2.jpg");
         this.addImage("mugshot.jpg");
     }
