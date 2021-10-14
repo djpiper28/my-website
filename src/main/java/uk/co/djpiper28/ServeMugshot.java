@@ -6,8 +6,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.Random;
 
 /**
@@ -18,41 +16,34 @@ import java.util.Random;
  */
 public class ServeMugshot extends HttpServlet {
 
-    private final Random random;
-    private final List<byte[]> images;
-
-    public ServeMugshot() {
-        this.random = new Random();
-        this.images = new LinkedList<>();
-
-        // Load images into images list (most common at the end)
-        this.addImage("mugshot3.png");
-        this.addImage("mugshot2.jpg");
-        this.addImage("mugshot.jpg");
-    }
-
-    private void addImage(String name) {
-        try (InputStream is = ServeMugshot.class.getClassLoader().getResourceAsStream(name)) {
-            byte[] b = is.readAllBytes();
-            this.images.add(b);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    private byte[] getImage() {
-        int index = (int) Math.floor(Math.abs(1 / random.nextFloat()));
-        if (index >= images.size())
-            return this.images.get(0);
-        return this.images.get(index);
-    }
+    private static final Random random = new Random();
+    private static final String[] suffixes = {"", "2", "3"};
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws IOException {
-        try {
+        String suffix = suffixes[random.nextInt(suffixes.length)];
+        String name = String.format("images/mugshot%s.jpg", suffix);
+
+        try (InputStream is = ServeMugshot.class.getClassLoader().getResourceAsStream(name)) {
+            // it is the responsibility of the container to close output stream
             OutputStream os = response.getOutputStream();
-            os.write(this.getImage());
+
+            if (is == null) {
+                response.setContentType("text/plain");
+                os.write("Failed to send image".getBytes());
+                System.err.printf("Error reading image %s from resources stream.\n", name);
+            } else {
+                response.setContentType("image/jpeg");
+
+                byte[] buffer = new byte[1024];
+                int bytesRead;
+
+                while ((bytesRead = is.read(buffer)) != -1) {
+
+                    os.write(buffer, 0, bytesRead);
+                }
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
