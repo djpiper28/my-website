@@ -8,8 +8,8 @@ plugins {
 
 group 'djpiper28.co.uk'
 version '1.0-SNAPSHOT'
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+sourceCompatibility = 1.9
+targetCompatibility = 1.9
 mainClassName = 'uk.co.djpiper28.Main'
 
 repositories {
