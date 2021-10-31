@@ -31,6 +31,12 @@ public class WebsiteServlet extends HttpServlet {
         String response = String.format("<!DOCTYPE html><html><head>\n" +
                         "<meta charset=\"UTF-8\">\n" +
                         "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">" +
+                        "<meta property=\"og:title\" content=\"Danny Piper's Website\" />\n" +
+                        "<meta property=\"og:type\" content=\"website\" />\n" +
+                        "<meta property=\"og:url\" content=\"https://djpiper28.co.uk\" />\n" +
+                        "<meta property=\"og:image\" content=\"https://www.djpiper28.co.uk/mugshot.jpg\" />\n" +
+                        "<meta property=\"og:description\" content=\"My really bad website.\" />\n" +
+                        "<meta name=\"theme-color\" content=\"#D48400\">\n" +
                         "<title>Danny Piper</title>\n" +
                         "<head>\n" +
                         "%s%s\n" + //Style sheet + show hide js
