@@ -18,7 +18,7 @@ public class StaticStrings {
     /**
      * style sheet for the entire website
      */
-    public static final String STYLE_SHEET = "<style>\n" +
+    public static final String STYLE_SHEET = "<style type=\"text/css\">\n" +
             ".centered {\n" +
             "     text-align: center;\n" +
             "}\n" +
@@ -65,12 +65,13 @@ public class StaticStrings {
             "  font-size: 20px;\n" +
             "  text-align: center;\n" +
             "}\n" +
+            "/* This is cursed */" +
             "</style>\n";
 
     /**
      * JS to show and hide my repos
      */
-    public static final String JS_SHOW_HIDE_REPOS = "<script>\n" +
+    public static final String JS_SHOW_HIDE_REPOS = "<script type=\"text/javascript\">\n" +
             "function show() {\n" +
             "    let button = document.getElementById(\"showhiderepos\");\n" +
             "    button.outerHTML = \"<button id=\\\"showhiderepos\\\" class=\\\"wide-button\\\" onclick=\\\"hide()\\\">Hide Repos</button>\";\n" +
@@ -122,6 +123,7 @@ public class StaticStrings {
      */
     private StaticStrings() {
         System.out.println("mmmmmmmmmmmmmmmmmmm calling me for no reason you are");
+        System.out.println("Leo was here");
         System.exit(69);
     }
 }
