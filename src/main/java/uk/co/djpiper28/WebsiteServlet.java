@@ -38,7 +38,6 @@ public class WebsiteServlet extends HttpServlet {
                         "<meta property=\"og:description\" content=\"My really bad website.\" />\n" +
                         "<meta name=\"theme-color\" content=\"#D48400\">\n" +
                         "<title>Danny Piper</title>\n" +
-                        "<head>\n" +
                         "%s%s\n" + //Style sheet + show hide js
                         "</head>\n" +
                         "<body>\n" +
