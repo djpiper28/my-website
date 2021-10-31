@@ -154,8 +154,7 @@ public class Repo implements Comparable {
      * @return an HTML block for this repo
      */
     public synchronized String getHTML() {
-        return String.format("</style>\n" +
-                        "\n" +
+        return String.format(
                         "<div class=\"github-repo\">\n" +
                         "    <div class=\"github-repo-inner\">\n" +
                         "        <h3 class=\"github-repo-content\">%s<a href=\"%s\">%s</a> (%s)</h3>\n" +
