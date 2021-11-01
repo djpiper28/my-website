@@ -1,7 +1,5 @@
 package uk.co.djpiper28;
 
-import org.eclipse.jetty.util.Jetty;
-
 import javax.servlet.AsyncContext;
 import javax.servlet.ServletException;
 import javax.servlet.ServletOutputStream;
@@ -28,7 +26,7 @@ public class RobotsServlet extends HttpServlet {
         for (Repo repo : WebServer.webServer.getRepos())
             sb.append(repo.getHTML());
 
-        ByteBuffer content = ByteBuffer.wrap("User-agent: *\nAllow: /\n".getBytes(StandardCharsets.UTF_8));
+        ByteBuffer content = ByteBuffer.wrap("User-agent: *\nDisallow:/\n".getBytes(StandardCharsets.UTF_8));
 
         AsyncContext async = req.startAsync();
         ServletOutputStream out = resp.getOutputStream();
