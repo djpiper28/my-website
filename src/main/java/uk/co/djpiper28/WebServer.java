@@ -59,6 +59,8 @@ public class WebServer {
         servletHandler.addServletWithMapping(WebsiteServlet.class, "/");
         servletHandler.addServletWithMapping(WebsiteServlet.class, "/index/");
 
+        servletHandler.addServletWithMapping(RobotsServlet.class, "/robots.txt");
+
         servletHandler.addServletWithMapping(ServeMugshot.class, "/mugshot");
         servletHandler.addServletWithMapping(ServeMugshot.class, "/mugshot.jpg");
         server.setHandler(servletHandler);
