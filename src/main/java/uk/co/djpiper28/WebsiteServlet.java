@@ -49,7 +49,7 @@ public class WebsiteServlet extends HttpServlet {
                         "</a>\n" +
                         "<a href=\"https://github.com/anuraghazra/github-readme-stats\">\n" +
                         "  <img align=\"center\" src=\"https://github-readme-stats.vercel.app/api?username=djpiper28&show_icons=true&theme=dark\" />\n" +
-                        "</a>"
+                        "</a>" +
                         "<button id=\"showhiderepos\" class=\"wide-button\" onclick=\"show()\">Show Repos</button>\n" +
                         "<div id=\"repos\" class=\"hidden\">\n" +
                         "%s\n" + //Repo HTML
