@@ -60,6 +60,8 @@ public class WebServer {
         servletHandler.addServletWithMapping(WebsiteServlet.class, "/index/");
 
         servletHandler.addServletWithMapping(RobotsServlet.class, "/robots.txt");
+        servletHandler.addServletWithMapping(GPGPublicKeyServlet.class, "/pgp_pub_key");
+        servletHandler.addServletWithMapping(GPGPublicKeyServlet.class, "/gpg_pub_key");
 
         servletHandler.addServletWithMapping(ServeMugshot.class, "/mugshot");
         servletHandler.addServletWithMapping(ServeMugshot.class, "/mugshot.jpg");
