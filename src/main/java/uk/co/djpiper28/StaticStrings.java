@@ -223,12 +223,12 @@ public class StaticStrings {
             "<h4>FOSS</h4>\n"+
             "I am passionate linux user and FOSS fan." +
             "<h5>Maze Programs</h5>\n" +
-            "<h6>Maze Generators/h6>\n" +
-            "<a href=\"https://github.com/djpiper28/Maze-Generator\">Java Maze Generator</a> - my first attempt at generating mazes, this was quite bad but fun to make.\n<br>" +
+            "<h6>Maze Generators</h6>\n" +
+            "<a href=\"https://github.com/djpiper28/Maze-Generator\">Java Maze Generator</a> - my first attempt at generating mazes, this was quite bad but fun to make.\n<br/>" +
             "<a href=\"https://github.com/djpiper28/ANSI-C-Maze-Generator\">ANSI C Maze Generator</a> - my latest and greatest maze generator. This one is really fast and makes large mazes quickly.\n" +
             "\n" +
-            "<h6>Maze Solver</g6>\n" +
-            "<a href=\"https://github.com/djpiper28/MazeSolver-javafx\">Java Maze Solver</a> - my first, decent attempt at solving mazes. It has a few cool methods to do so and works fairly well.\nbr>" +
+            "<h6>Maze Solver</h6>\n" +
+            "<a href=\"https://github.com/djpiper28/MazeSolver-javafx\">Java Maze Solver</a> - my first, decent attempt at solving mazes. It has a few cool methods to do so and works fairly well.\n<br/>" +
             "<a href=\"https://github.com/djpiper28/OpenCLTest\">OpenCL Maze Solver</a> - this is my first opencl program and is a fairly fussy but fast maze solver. Some input really upsets it though." +
             "<h5>MTG Tournament Programs</h5>\n" +
             "I have been contributing in the MTG community lately to produce better " +
