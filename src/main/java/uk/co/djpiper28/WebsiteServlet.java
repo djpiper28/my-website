@@ -42,7 +42,7 @@ public class WebsiteServlet extends HttpServlet {
                         "</head>\n" +
                         "<body>\n" +
                         "<h1 class=\"centered\">Danny Piper - www.djpiper28.co.uk</h1>\n" +
-                        "<img class=\"img-center\" src=\"/mugshot.jpg\" alt=\"a mugshot of Danny Piper's grumpy face\" />\n" +
+                        "<img class=\"img-center\" src=\"/mugshot.jpg\" width=\"10%%\" alt=\"a mugshot of Danny Piper's grumpy face\" />\n" +
                         "%s\n" + // About me
                         "<a href=\"https://github.com/anuraghazra/github-readme-stats\">\n" +
                         "  <img align=\"center\" src=\"https://github-readme-stats.vercel.app/api/top-langs/?username=djpiper28&theme=dark\" />\n" +
