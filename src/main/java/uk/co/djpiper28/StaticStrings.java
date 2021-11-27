@@ -171,11 +171,6 @@ public class StaticStrings {
             "</script>";
 
     /**
-     * this is the constant for the year number as seen in {@link StaticStrings#ABOUT_ME_HTML ABOUT_ME_HTML}
-     */
-    public static final String YEAR_NUMBER = "second";
-
-    /**
      * the HTML for the about me blurb under my mugshot
      */
     public static String ABOUT_ME_HTML = "IO ERROR ON LAUNCH";
