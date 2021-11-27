@@ -1,0 +1,55 @@
+<style type="text/css">
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(255, 204, 0);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p, div, a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.centered {
+     text-align: center;
+}
+.github-repo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: lightgray;
+    padding: 1px;
+}
+.github-repo-inner {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.github-repo-content {
+    padding: 5px;
+}
+.fork {
+    color: black;
+    word-wrap: break-word;
+}
+.hidden {
+    height: 0px;
+    display: none;
+}
+.wide-button {
+  width: 100%;
+  background: orange;
+  border: 0px;
+  text-color: black;
+  font-size: 20px;
+}
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+.middle-text {
+  margin-left: auto;  margin-right: auto;  width: 80%;
+  font-size: 20px;
+  text-align: center;
+}
+/* This is cursed */</style>

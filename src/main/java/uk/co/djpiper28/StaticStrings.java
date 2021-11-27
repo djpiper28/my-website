@@ -139,55 +139,16 @@ public class StaticStrings {
     /**
      * style sheet for the entire website
      */
-    public static final String STYLE_SHEET = "<style type=\"text/css\">\n" +
-            ".centered {\n" +
-            "     text-align: center;\n" +
-            "}\n" +
-            ".github-repo {\n" +
-            "    margin-top: 10px;\n" +
-            "    margin-bottom: 10px;\n" +
-            "    background: lightgray;\n" +
-            "    padding: 1px;\n" +
-            "}\n" +
-            ".github-repo-inner {\n" +
-            "    display: flex;\n" +
-            "    flex-flow: row wrap;\n" +
-            "    margin-left: 25px;\n" +
-            "    margin-right: 25px;\n" +
-            "}\n" +
-            ".github-repo-content {\n" +
-            "    padding: 5px;\n" +
-            "}\n" +
-            ".fork {\n" +
-            "    color: black;\n" +
-            "    word-wrap: break-word;\n" +
-            "}\n" +
-            ".hidden {\n" +
-            "    height: 0px;\n" +
-            "    display: none;\n" +
-            "}\n" +
-            ".wide-button {\n" +
-            "  width: 100%;\n" +
-            "  background: orange;\n" +
-            "  border: 0px;\n" +
-            "  text-color: black;\n" +
-            "  font-size: 20px;\n" +
-            "}\n" +
-            ".img-center {\n" +
-            "  display: block;\n" +
-            "  margin-left: auto;\n" +
-            "  margin-right: auto;\n" +
-            "  width: 20%;\n" +
-            "}\n" +
-            ".middle-text {\n" +
-            "  margin-left: auto;" +
-            "  margin-right: auto;" +
-            "  width: 80%;\n" +
-            "  font-size: 20px;\n" +
-            "  text-align: center;\n" +
-            "}\n" +
-            "/* This is cursed */" +
-            "</style>\n";
+    public static String STYLE_SHEET = "IO ERROR ON LOAD";
+
+    static {
+        try {
+            STYLE_SHEET = new String(Objects.requireNonNull(StaticStrings.class.getResource("/global.css")).openStream().readAllBytes());
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.exit(13);
+        }
+    }
 
     /**
      * JS to show and hide my repos
