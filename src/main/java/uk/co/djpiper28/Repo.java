@@ -176,7 +176,7 @@ public class Repo implements Comparable {
                 this.getUrl(),
                 this.getName(),
                 this.getLanguage(),
-                this.getDescription(),
+                this.getDescription() == null ? "(no description)" : this.getDescription(),
                 this.getStargazersCount(),
                 this.getForks())
                 .replace("(null)", "");
