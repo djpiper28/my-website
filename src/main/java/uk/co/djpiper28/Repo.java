@@ -178,7 +178,8 @@ public class Repo implements Comparable {
                 this.getLanguage(),
                 this.getDescription(),
                 this.getStargazersCount(),
-                this.getForks());
+                this.getForks())
+                .replace("(null)", "");
     }
 
     /**
