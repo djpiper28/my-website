@@ -154,6 +154,21 @@ public class StaticStrings {
      * JS to show and hide my repos
      */
     public static final String JS_SHOW_HIDE_REPOS = "<script type=\"text/javascript\">\n" +
+            "\n" +
+            "function showcont(id, text, cont) {\n" +
+            "    let button = document.getElementById(id);\n" +
+            "    button.outerHTML = \"<button id=\\\"\" + id + \"\\\" class=\\\"wide-button\\\" onclick=\\\"hidecont(\"id + \",\" + text\" + \",\" + cont)\\\">Hide \" + text + \"</button>\";\n" +
+            "\n" +
+            "    let repos = document.getElementById(cont);\n" +
+            "    repos.classList.remove('hidden');\n" +
+            "}\n" +
+            "function hidecont(id, text, cont) {\n" +
+            "    let button = document.getElementById(id);\n" +
+            "    button.outerHTML = \"<button id=\\\"\" + id + \"\\\" class=\\\"wide-button\\\" onclick=\\\"showcont(\"id + \",\" + text\" + \",\" + cont)\\\">Show \" +text + \"</button>\";\n" +
+            "\n" +
+            "    let repos = document.getElementById(cont);\n" +
+            "    repos.classList.add('hidden');\n" +
+            "}\n" +
             "function show() {\n" +
             "    let button = document.getElementById(\"showhiderepos\");\n" +
             "    button.outerHTML = \"<button id=\\\"showhiderepos\\\" class=\\\"wide-button\\\" onclick=\\\"hide()\\\">Hide Repos</button>\";\n" +
