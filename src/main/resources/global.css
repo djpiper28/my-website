@@ -8,8 +8,13 @@ body {
   background-color: black;
 }
 
-p, div, a {
+p, div {
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: rgb(102, 158, 255);
   font-family: Arial, Helvetica, sans-serif;
 }
 
