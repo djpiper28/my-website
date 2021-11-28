@@ -2,14 +2,14 @@
 
 function showcont(id, text, cont) {
     let button = document.getElementById(id);
-    button.outerHTML = "<button id=\"" + id + "\" class=\"wide-button\" onclick=\'hidecont(" + id + "," + text + "," + cont + ")\'>Hide " + text + "</button>";
+    button.outerHTML = "<button id=\"" + id + "\" class=\"wide-button\" onclick=\'hidecont('" + id + "','" + text + "','" + cont + "')'>Hide " + text + "</button>";
 
     let repos = document.getElementById(cont);
     repos.classList.remove('hidden');
 }
 function hidecont(id, text, cont) {
     let button = document.getElementById(id);
-    button.outerHTML = "<button id=\"" + id + "\" class=\"wide-button\" onclick=\'showcont(" + id + "," + text + "," + cont + ")\'>Show " +text + "</button>";
+    button.outerHTML = "<button id=\"" + id + "\" class=\"wide-button\" onclick=\'showcont('" + id + "','" + text + "','" + cont + "')'>Show " +text + "</button>";
 
     let repos = document.getElementById(cont);
     repos.classList.add('hidden');
