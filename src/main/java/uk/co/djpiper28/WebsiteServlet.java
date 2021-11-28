@@ -44,12 +44,14 @@ public class WebsiteServlet extends HttpServlet {
                         "<h1 class=\"centered\">Danny Piper - www.djpiper28.co.uk</h1>\n" +
                         "<img class=\"img-center\" src=\"/mugshot.jpg\" width=\"10%%\" alt=\"a mugshot of Danny Piper's grumpy face\" />\n" +
                         "%s\n" + // About me
+                        "<div class=\"middle-text\">" +
                         "<a class=\"centered\" href=\"https://github.com/anuraghazra/github-readme-stats\">\n" +
                         "  <img class=\"centered\" align=\"center\" src=\"https://github-readme-stats.vercel.app/api/top-langs/?username=djpiper28&theme=dark\" />\n" +
                         "</a><br />\n" +
                         "<a class=\"centered\" href=\"https://github.com/anuraghazra/github-readme-stats\">\n" +
                         "  <img class=\"centered\" align=\"center\" src=\"https://github-readme-stats.vercel.app/api?username=djpiper28&show_icons=true&theme=dark\" />\n" +
                         "</a>" +
+                        "</div>" +
                         "<button id=\"showhiderepos\" class=\"wide-button\" onclick=\"show()\">Show Repos</button>\n" +
                         "<div id=\"repos\" class=\"hidden\">\n" +
                         "%s\n" + //Repo HTML

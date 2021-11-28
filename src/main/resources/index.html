@@ -1,3 +1,20 @@
+<script type="text/javascript">
+function showcont(id, text, cont) {
+    let button = document.getElementById(id);
+    button.outerHTML = "<button id=\"" + id + "\" class=\"wide-button\" onclick=\"hidecont("id + "," + text" + "," + cont)\">Hide " + text + "</button>";
+
+    let repos = document.getElementById(cont);
+    repos.classList.remove('hidden');
+}
+function hidecont(id, text, cont) {
+    let button = document.getElementById(id);
+    button.outerHTML = "<button id=\"" + id + "\" class=\"wide-button\" onclick=\"showcont("id + "," + text" + "," + cont)\">Show " +text + "</button>";
+
+    let repos = document.getElementById(cont);
+    repos.classList.add('hidden');
+}
+</script>
+
 <div class="middle-text">
 <h4>About Me</h4>
 Hello! I am Danny Piper (they/them) and, I am a student at Royal Holloway studying an embedded master in Computer Science
@@ -43,20 +60,3 @@ You can view my <a href="https://www.linkedin.com/in/danny-piper-b340b3130/">Lin
 Or via discord (Danny P.#6969)<br>
 But please don't spam me.
 </div>
-
-<script type="text/javascript">
-function showcont(id, text, cont) {
-    let button = document.getElementById(id);
-    button.outerHTML = "<button id=\"" + id + "\" class=\"wide-button\" onclick=\"hidecont("id + "," + text" + "," + cont)\">Hide " + text + "</button>";
-
-    let repos = document.getElementById(cont);
-    repos.classList.remove('hidden');
-}
-function hidecont(id, text, cont) {
-    let button = document.getElementById(id);
-    button.outerHTML = "<button id=\"" + id + "\" class=\"wide-button\" onclick=\"showcont("id + "," + text" + "," + cont)\">Show " +text + "</button>";
-
-    let repos = document.getElementById(cont);
-    repos.classList.add('hidden');
-}
-</script>
