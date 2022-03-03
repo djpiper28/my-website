@@ -24,6 +24,7 @@
 	border-radius: 15px 0px 0px 15px;
   justify-content: center;
   object-fit: contain;
+  cursor: pointer;
 }
 
 .ImageDiv {

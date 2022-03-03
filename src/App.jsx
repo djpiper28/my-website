@@ -6,7 +6,6 @@ import Header from './Header.jsx'
 import ImageCard from './ImageCard.jsx'
 
 function App() {
-  const [count, setCount] = useState(0);
   const [githubData, setGithubData] = useState({});
 
   useEffect(() => {
@@ -66,14 +65,14 @@ function App() {
 
 					<div className="StackedDiv">
 								<Header text="Personal Projects" />
-								<ImageCard image_url="https://www.djpiper28.co.uk/cdn/compsoc.png" text={
+								<ImageCard href="https://computingsociety.co.uk" image_url="https://www.djpiper28.co.uk/cdn/compsoc.png" text={
 				"RHUL Computing Society Events Director"
 				  			} small_text={
 				"I have been working on the comitte to deliver fun and, educational events to "
 			+ "Computer Science students at Royal Holloway. Recently we held a large event called "
       + "Royal Hackaway v5, the checkin system was written by me in C++."
 								}/>
-					      <ImageCard image_url="https://www.djpiper28.co.uk/cdn/monarch.png" text={
+					      <ImageCard href="https://github.com/MonarchDevelopment" image_url="https://www.djpiper28.co.uk/cdn/monarch.png" text={
 				"I have been a volunteer developer at Monarch for just over a year now."
 					      } small_text={
 				"Together, a small team and I have been working on software to run and, analyse "
