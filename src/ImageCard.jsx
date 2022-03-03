@@ -1,7 +1,15 @@
 import React from "react"
 
-const ImageCard = ({image_url, right_text}) => {
-	return <div>{image_url} | {right_text}</div>
+const ImageCard = ({image_url, text, small_text}) => {
+  	return (
+    		<div className="ImageDiv">
+     				<img src={image_url} className="CardImage" />
+				    <div className="StackedDiv">
+				   			<p className="ImageDivText">{text}</p>
+				   	    <p className="ParagraphSmallText">{small_text}</p>
+				   	</div>
+    		</div>
+	  );
 };
 
 export default ImageCard;

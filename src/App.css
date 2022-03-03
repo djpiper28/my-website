@@ -10,19 +10,59 @@
 }
 
 .StackedDiv {
-  margin: 15px;
-  max-width: 90%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   align: center;
   justify-content: center;
 }
 
-.CardDiv {
+.CardImage {
+	width: 50%;
+  display: flex;
+	background-color: white;
+	border-radius: 15px 0px 0px 15px;
+  justify-content: center;
+  object-fit: contain;
+}
+
+.ImageDiv {
+	width: 100%;
+  display: flex;
+  flex-direction: row;
+  align: center;
   background-color: white;
-	padding: 15px;
 	border-radius: 15px;
 	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+	max-height: 50vh;
+  margin-bottom: 15px;
+}
+
+.ImageDivText {
+	margin: 20px;
+	text-align: center;
+  font-size: 24px;
+}
+
+.CardDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align: center;
+  background-color: white;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+  margin-bottom: 15px;
+}
+
+.ParagraphText {
+	margin: 20px;
+	font-size: 24px;
+}
+
+.ParagraphSmallText {
+	margin: 20px;
 }
 
 .ParentImg {
@@ -35,12 +75,14 @@
 .RoundImg {
 	object-fit: contain;
 	border-radius: 15px;
-	max-height: 50vh;
+	max-height: 40vh;
 	border-radius: 25px;
+  margin-bottom: 15px;
 }
 
 .Header {
-	padding: 15px;
+  padding: 15px;
+	margin: 15px;
 	font-size: 32px;
 	text-align: center;
 }
@@ -53,6 +95,12 @@
 .GithubName {
 	width: 100%;
 	font-size: 24px;
+	text-align: center;
+	margin: 20px;
+}
+
+.GithubText {
+	margin: 20px;
 	text-align: center;
 }
 
