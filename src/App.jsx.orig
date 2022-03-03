@@ -1,0 +1,33 @@
+import { useState } from 'react'
+import './App.css'
+import Paragraph from './Paragraph.jsx'
+import RoundImg from './RoundImage.jsx'
+import 'react-slideshow-image/dist/styles.css'
+import { Slide } from 'react-slideshow-image';
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <div className="RootDiv">
+    			<div className="TopDiv">
+				      <RoundImg img_url="https://www.djpiper28.co.uk/mugshot.jpg" />
+				   		<Paragraph text={
+				"I am Danny Piper, I am a very strong backend developer. "
+			+ "Who likes C, C++, GoLang and, Python."
+							}/>
+				       <Slide>
+				         {slideImages.map((slideImage, index)=> (
+				            <div className="each-slide" key={index}>
+				              <div style={{'backgroundImage': `url(${slideImage.url})`}}>
+				                <span>{slideImage.caption}</span>
+				              </div>
+				            </div>
+				          ))} 
+				        </Slide>
+   				</div>
+    </div>
+  )
+}
+
+export default App

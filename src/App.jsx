@@ -1,43 +1,47 @@
-import { useState } from 'react'
-import logo from './logo.svg'
+import { useState, useEffect } from 'react'
 import './App.css'
+import Paragraph from './Paragraph.jsx'
+import RoundImg from './RoundImage.jsx'
+import Header from './Header.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
+  const [githubData, setGithubData] = useState({});
+
+  useEffect(() => {
+  	fetch("https://api.github.com/users/djpiper28")
+				.then(response => response.json ())
+				.then(data => {
+  					setGithubData(data);
+				});
+  }, []);
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
-        <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
-        </p>
-        <p>
-          Edit <code>App.jsx</code> and save to test HMR updates.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-        </p>
-      </header>
+    <div className="RootDiv">
+    			<div className="StackedDiv">
+				      <RoundImg img_url="https://www.djpiper28.co.uk/mugshot.jpg" />
+				   		<Paragraph text={
+				"I am Danny Piper, I am a very strong backend developer. "
+			+ "Who likes C, C++, GoLang and, Python. I am always looking "
+      + "for new opportunities to develop my skills and meet new people."
+							}/>
+					</div>
+
+					<div className="GitBanner">
+              <a href={githubData.html_url}>
+								<img src={githubData.avatar_url} className="GithubAvatar" />
+							</a>
+
+					    <div className="StackedDiv">
+								<b className="GithubName">Github <a href={githubData.html_url}>{githubData.login}</a> | {githubData.public_repos} Repos</b>
+						    <p>{githubData.bio}</p>
+							</div>
+					</div>
+
+					<div className="StackedDiv">
+							<Header text="My Hobbies" />
+					
+					</div>
     </div>
   )
 }
