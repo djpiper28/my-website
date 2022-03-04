@@ -4,7 +4,11 @@ const ImageCard = ({image_url, href, text, small_text}) => {
   	return (
     		<div className="ImageDiv">
    	     		<img src={image_url} className="CardImage" onClick={
-   	     			() => document.location.href="https://github.com/MonarchDevelopment"
+   	     			() => {
+   	     				if (href != "") {
+       	     				document.location.href="https://github.com/MonarchDevelopment";
+								}
+							}
    	     		}/>
 				    <div className="StackedDiv">
 				   			<p className="ImageDivText">{text}</p>

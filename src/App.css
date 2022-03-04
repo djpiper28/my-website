@@ -17,6 +17,33 @@
   justify-content: center;
 }
 
+.GenericGrid {
+  width: 100%;
+	align: center;
+	justify-content: center;
+	display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.RepoDiv {
+	width: 100%;
+	align: center;
+	justify-content: center;
+	display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.HDiv {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .CardImage {
 	width: 50%;
   display: flex;
@@ -51,6 +78,28 @@
   flex-direction: column;
   justify-content: center;
   align: center;
+  background-color: white;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+  margin-bottom: 15px;
+}
+
+.TopAlign {
+  height: 100%;
+  justify-content: flex-start;
+}
+
+.RepoName {
+	cursor: pointer;
+	color: rgb(200, 50, 255);
+}
+
+.RepoCardDiv {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+  justify-content: center;
+  align: left;
   background-color: white;
 	border-radius: 15px;
 	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
@@ -109,8 +158,9 @@
   background-color: white;
 	display: flex;
 	flex-direction: row;
-	width: 90%;
+	width: 100%;
 	border-radius: 15px;
 	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+	margin-bottom: 15px;
 }
 
