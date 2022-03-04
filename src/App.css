@@ -26,6 +26,14 @@
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 
+.GenericGrid {
+	width: 100%;
+	align: center;
+	justify-content: center;
+	display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
 .RepoDiv {
 	width: 100%;
 	align: center;
@@ -46,10 +54,8 @@
 
 .CardImage {
 	width: 50%;
-  display: flex;
 	background-color: white;
 	border-radius: 15px 0px 0px 15px;
-  justify-content: center;
   object-fit: contain;
   cursor: pointer;
 }
@@ -137,7 +143,7 @@
 }
 
 .GithubAvatar {
-  height: 200px;
+  height: 250px;
 	border-radius: 15px 0px 0px 15px;
 }
 
