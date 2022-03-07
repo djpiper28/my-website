@@ -97,7 +97,12 @@ function App() {
       + "This has been a really fun time so far as I have learnt a lot about software such as firewalld "
       + "and, postgresql."
   								 } />
-  				        <ImageCard image_url="https://www.djpiper28.co.uk/cdn/powerwolf.jpg" href="" text="Listening to Metal" small_text="I love to listen to listen to metal music, some of my favourite bands are Power Wolf (left), Sabaton and, Raubtier." />
+  				        <ImageCard image_url="https://www.djpiper28.co.uk/cdn/powerwolf.jpg" href="" text="Listening to Metal" small_text="I love to listen to listen to metal music, some of my favourite bands are Power Wolf (left), Sabaton, Motionless in White and, Raubtier." />
+  				        <Paragraph text="Tabletop Wargames" small_text={
+  			"I play Warhammer 40,000 and, other tabletop wargames with my friends. I really enjoy painting "
+  		+ "my minis and building model kits. Unfortunately James Workshop are very pricy so I cannot buy "
+      + "their kits and have a healthy wallet. I have been eyeing up Perry Miniatures..."
+  				        } />
 					    </div>
 					    <ImageCard image_url="https://www.djpiper28.co.uk/cdn/cuppa.jpg" href="" text="A Nice Cuppa" small_text={
      "I enjoy chilling with my friends and, having a nice cuppa. I usually have coffee but I also love "
