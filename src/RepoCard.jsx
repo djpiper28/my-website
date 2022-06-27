@@ -3,10 +3,11 @@ import React from "react"
 const RepoCard = ({name, url, desc, lang, forks, stars}) => {
 	return (
 		<div className="RepoCardDiv">
-        <div className="StackedDiv TopAlign">
-            <b className="ParagraphText RepoName" onClick={
+        <div className="StackedDiv TopAlign" onClick={
               () => document.location.href=url
-            }>
+
+        }>
+            <b className="ParagraphText RepoName">
                  {name}
             </b>
 				    <p className="ParagraphSmallText">
