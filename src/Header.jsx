@@ -1,11 +1,11 @@
-import React from "react"
+import React from "react";
 
-const Header = ({text}) => {
+const Header = ({ text }) => {
   return (
-		<div className="StackedDiv">
+    <div className="StackedDiv">
       <b className="Header">{text}</b>
     </div>
-	);
+  );
 };
 
 export default Header;

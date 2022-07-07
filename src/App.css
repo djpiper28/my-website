@@ -6,7 +6,7 @@
   align-items: center;
   background-color: rgb(235, 235, 245);
   min-height: 100vh;
-	font-size: 18px;
+  font-size: 18px;
 }
 
 .StackedDiv {
@@ -20,27 +20,27 @@
 
 .HobbiesDiv {
   width: 100%;
-	align: center;
-	justify-content: center;
-	display: grid;
+  align: center;
+  justify-content: center;
+  display: grid;
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 
 .GenericGrid {
-	width: 100%;
-	align: center;
-	justify-content: center;
-	display: grid;
-	gap: 1rem;
+  width: 100%;
+  align: center;
+  justify-content: center;
+  display: grid;
+  gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 
 .RepoDiv {
-	width: 100%;
-	align: center;
-	justify-content: center;
-	display: grid;
+  width: 100%;
+  align: center;
+  justify-content: center;
+  display: grid;
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
@@ -55,27 +55,27 @@
 }
 
 .CardImage {
-	width: 50%;
-	background-color: white;
-	border-radius: 15px 0px 0px 15px;
+  width: 50%;
+  background-color: white;
+  border-radius: 15px 0px 0px 15px;
   object-fit: contain;
   cursor: pointer;
 }
 
 .ImageDiv {
-	width: 100%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align: center;
   background-color: white;
-	border-radius: 15px;
-	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
   margin-bottom: 15px;
 }
 
 .ImageDivText {
-	margin: 20px;
-	text-align: center;
+  margin: 20px;
+  text-align: center;
   font-size: 24px;
 }
 
@@ -86,8 +86,8 @@
   justify-content: center;
   align: center;
   background-color: white;
-	border-radius: 15px;
-	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
   margin-bottom: 15px;
 }
 
@@ -97,77 +97,76 @@
 }
 
 .RepoName {
-	cursor: pointer;
-	color: rgb(200, 50, 255);
+  cursor: pointer;
+  color: rgb(200, 50, 255);
 }
 
 .RepoCardDiv {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align: left;
   background-color: white;
-	border-radius: 15px;
-	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
   margin-bottom: 15px;
 }
 
 .ParagraphText {
-	margin: 20px;
-	font-size: 24px;
+  margin: 20px;
+  font-size: 24px;
 }
 
 .ParagraphSmallText {
-	margin: 20px;
+  margin: 20px;
 }
 
 .ParentImg {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
 }
 
 .RoundImg {
-	object-fit: contain;
-	border-radius: 15px;
-	max-height: 40vh;
-	border-radius: 25px;
+  object-fit: contain;
+  border-radius: 15px;
+  max-height: 40vh;
+  border-radius: 25px;
   margin-bottom: 15px;
 }
 
 .Header {
   padding: 15px;
-	margin: 15px;
-	font-size: 32px;
-	text-align: center;
+  margin: 15px;
+  font-size: 32px;
+  text-align: center;
 }
 
 .GithubAvatar {
   height: 250px;
-	border-radius: 15px 0px 0px 15px;
+  border-radius: 15px 0px 0px 15px;
 }
 
 .GithubName {
-	width: 100%;
-	font-size: 24px;
-	text-align: center;
-	margin: 20px;
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+  margin: 20px;
 }
 
 .GithubText {
-	margin: 20px;
-	text-align: center;
+  margin: 20px;
+  text-align: center;
 }
 
 .GitBanner {
   background-color: white;
-	display: flex;
-	flex-direction: row;
-	width: 100%;
-	border-radius: 15px;
-	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
-	margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
 }
-
