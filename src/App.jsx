@@ -94,11 +94,12 @@ function App() {
         <ImageCard
           href="https://computingsociety.co.uk"
           image_url="https://www.djpiper28.co.uk/cdn/compsoc.png"
-          text={"RHUL Computing Society Events Director (2020/2021)"}
+          text={"RHUL Computing Society Outreach and Promotions (2022/2023)"}
           small_text={
-            "I have been working on the comitte to deliver fun and, educational events to " +
+            "I have been working on the comittee to deliver fun and, educational events to " +
             "Computer Science students at Royal Holloway. Recently we held a large event called " +
-            "Royal Hackaway v5, the checkin system was written by me in C++."
+            "Royal Hackaway v5, the checkin system was written by me in C++. I was also the Events " +
+            "Director in 2020/2021"
           }
         />
         <ImageCard
@@ -157,6 +158,24 @@ function App() {
             "a good cup of tea (and maybe even a bland biscuit to dip in it)."
           }
         />
+        <div className="GenericGrid">
+          <Paragraph
+            text="Table Top Role Playing Games"
+            small_text={
+              "I am also a fan of ttrps such as DnD, Call of Cthultu and, Cyberpunk. I play these with my " +
+              "friends regularily and it is great fun."
+            }
+          />
+          <Paragraph
+            text="Programming In My Spare Time"
+            small_text={
+              "I like to program in my spare time and, I have been working on a few great projects as of late: " +
+              " 'testing.h' (an ANSI C testing framework); 'Squire Core'/'Squire Desktop' (Monarch Development's) " +
+              "tournament management software and; 'mtg-search-engine' a component of Squire Desktop " +
+              "that allows for indexing and, searching of Magic the Gathering cards."
+            }
+          />
+       </div>
       </div>
 
       <div className="StackedDiv">
