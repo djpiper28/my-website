@@ -199,8 +199,8 @@ function App() {
           {repos
             .sort((a, b) => {
               return (
-                a.stargazers_count + a.forks_count <
-                b.stargazers_count + b.forks_count
+                a.stargazers_count + (a.forks_count * 2) <
+                b.stargazers_count + (b.forks_count * 2)
               );
             })
             .slice(0, 9)
