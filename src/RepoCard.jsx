@@ -12,7 +12,7 @@ const RepoCard = ({ name, url, desc, lang, forks, stars }) => {
       </div>
       <div className="HDiv">
         <b className="ParagraphText">
-          Mostly {lang == "C" ? "C <3" : lang} | {forks} Forks | {stars} Stars
+          {lang == "C" ? "C <3" : lang} | {forks} Forks | {stars} Stars
         </b>
       </div>
     </div>

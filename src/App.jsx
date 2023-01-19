@@ -227,7 +227,7 @@ function App() {
               (djpiper28@gmail.com)
               <br />
               You can view my{" "}
-              <a href="https://www.linkedin.com/in/danny-piper-b340b3130/">
+              <a href="https://www.linkedin.com/in/djpiper28">
                 Linked In
               </a>{" "}
               profile
