@@ -232,6 +232,11 @@ function App() {
               </a>{" "}
               profile
               <br />
+              You can download my{" "}
+              <a href="https://djpiper28.co.uk/cdn/DannyPiper.pdf">
+                CV
+              </a>
+              <br />
               You can contact me on Discord (I respond fastest here){" "}
               <b>Danny P.#6969</b>
               <br />
