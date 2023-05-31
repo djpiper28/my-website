@@ -1,13 +1,12 @@
-
 window.onscroll = function() {
   showScrollToTopButton();
 };
 
 function showScrollToTopButton() {
   var scrollToTopButton = document.getElementById("scrollToTopButton");
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (scrollToTopButton && (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)) {
     scrollToTopButton.style.display = "block";
-  } else {
+  } else if (scrollToTopButton) {
     scrollToTopButton.style.display = "none";
   }
 }
@@ -37,17 +36,28 @@ window.addEventListener('scroll', saveScrollPosition);
 // Load scroll position on page load
 window.addEventListener('load', loadScrollPosition);
 
- <style> element and add custom cursor style
 function setCursorColor() {
-  const styleElement = document.createElement('style');
+  let styleElement = document.getElementById('custom-cursor-style');
+  if (!styleElement) {
+    styleElement = document.createElement('style');
+    styleElement.id = 'custom-cursor-style';
+    document.head.appendChild(styleElement);
+  }
   styleElement.innerHTML = 'html { cursor: url("https://raw.githubusercontent.com/kai9987kai/kai9987kai.github.io/master/cur.png"), auto; }';
-  document.head.appendChild(styleElement);
 }
 
 // Call the function to set the custom cursor on page load
 window.addEventListener('load', setCursorColor);
+
 // Disable right-click context menu
 document.addEventListener('contextmenu', function(event) {
   event.preventDefault();
 });
 
+// Add click event listener to scrollToTopButton
+document.addEventListener('DOMContentLoaded', function() {
+  const scrollToTopButton = document.getElementById('scrollToTopButton');
+  if (scrollToTopButton) {
+    scrollToTopButton.addEventListener('click', scrollToTop);
+  }
+});
