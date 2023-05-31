@@ -189,3 +189,21 @@
 #scrollToTopButton:hover {
   background-color: #777;
 }
+#scrollToTopButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 20px; /* Updated position to left */
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: #555;
+  color: white;
+  font-size: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#scrollToTopButton:hover {
+  background-color: #777;
+}
