@@ -20,7 +20,6 @@
 
 .HobbiesDiv {
   width: 100%;
-  align: center;
   justify-content: center;
   display: grid;
   gap: 1rem;
@@ -29,7 +28,6 @@
 
 .GenericGrid {
   width: 100%;
-  align: center;
   justify-content: center;
   display: grid;
   gap: 1rem;
@@ -38,7 +36,6 @@
 
 .RepoDiv {
   width: 100%;
-  align: center;
   justify-content: center;
   display: grid;
   gap: 1rem;
@@ -66,7 +63,7 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  align: center;
+  align-items: center;
   background-color: white;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
@@ -84,7 +81,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align: center;
+  align-items: center;
   background-color: white;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
@@ -106,7 +103,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align: left;
+  align-items: left;
   background-color: white;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
@@ -133,7 +130,6 @@
   object-fit: contain;
   border-radius: 15px;
   max-height: 40vh;
-  border-radius: 25px;
   margin-bottom: 15px;
 }
 
