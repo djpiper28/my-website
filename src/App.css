@@ -170,3 +170,22 @@
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
   margin-bottom: 15px;
 }
+
+#scrollToTopButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: #555;
+  color: white;
+  font-size: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#scrollToTopButton:hover {
+  background-color: #777;
+}
