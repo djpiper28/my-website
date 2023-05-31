@@ -207,3 +207,20 @@
 #scrollToTopButton:hover {
   background-color: #777;
 }
+body {
+  cursor: none;
+}
+
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  background-image: url("https://raw.githubusercontent.com/kai9987kai/kai9987kai.github.io/master/cur.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  pointer-events: none;
+  z-index: 9999;
+}
+
