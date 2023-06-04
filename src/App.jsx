@@ -1,14 +1,17 @@
 import { useState, useEffect } from "react";
+import ErrorBoundry from "error-boundary";
 import "./App.css";
 import Paragraph from "./Paragraph.jsx";
 import RoundImg from "./RoundImage.jsx";
 import Header from "./Header.jsx";
 import ImageCard from "./ImageCard.jsx";
 import RepoCard from "./RepoCard.jsx";
+import Repos from "./Repos.jsx";
 
 function App() {
   const [githubData, setGithubData] = useState({});
   const [repos, setRepos] = useState([]);
+  const [externalRepos, setExternalRepos] = useState([]);
 
   useEffect(() => {
     fetch("https://api.github.com/users/djpiper28")
@@ -19,12 +22,46 @@ function App() {
   }, []);
 
   useEffect(() => {
-    fetch("https://api.github.com/users/djpiper28/repos")
-      .then((response) => response.json())
-      .then((data) => {
-        setRepos(data);
-      });
+    try {
+      fetch("https://api.github.com/users/djpiper28/repos")
+        .then((response) => response.json())
+        .then((data) => {
+          setRepos(
+            data
+              .sort((a, b) => {
+                return (
+                  a.stargazers_count + a.forks_count * 2 <
+                  b.stargazers_count + b.forks_count * 2
+                );
+              })
+              .slice(0, 6)
+          );
+        });
+    } catch (e) {
+      console.log(e);
+    }
   }, []);
+
+  useEffect(() => {
+    try {
+      let repoData = [];
+      Repos.map((repo) => {
+        fetch("https://api.github.com/repos/" + repo)
+          .then((response) => response.json())
+          .then((data) => repoData.append(data));
+      });
+      setExternalRepos(
+        repoData.sort((a, b) => {
+          return (
+            a.stargazers_count + a.forks_count * 2 <
+            b.stargazers_count + b.forks_count * 2
+          );
+        })
+      );
+    } catch (e) {
+      console.log(e);
+    }
+  });
 
   return (
     <div className="RootDiv">
@@ -175,7 +212,7 @@ function App() {
               "that allows for indexing and, searching of Magic the Gathering cards."
             }
           />
-       </div>
+        </div>
       </div>
 
       <div className="StackedDiv">
@@ -194,17 +231,9 @@ function App() {
           </div>
         </div>
 
-        <div className="RepoDiv">
-          {" "}
-          {repos
-            .sort((a, b) => {
-              return (
-                a.stargazers_count + (a.forks_count * 2) <
-                b.stargazers_count + (b.forks_count * 2)
-              );
-            })
-            .slice(0, 9)
-            .map((repo) => (
+        <ErrorBoundry>
+          <div className="RepoDiv">
+            {repos.map((repo) => (
               <RepoCard
                 name={repo.name}
                 desc={repo.description}
@@ -214,7 +243,18 @@ function App() {
                 forks={repo.forks_count}
               />
             ))}
-        </div>
+            {externalRepos.map((repo) => (
+              <RepoCard
+                name={repo.name}
+                desc={repo.description}
+                url={repo.html_url}
+                lang={repo.language}
+                stars={repo.stargazers_count}
+                forks={repo.forks_count}
+              />
+            ))}
+          </div>
+        </ErrorBoundry>
       </div>
 
       <div className="StackedDiv">
@@ -227,15 +267,11 @@ function App() {
               (djpiper28@gmail.com)
               <br />
               You can view my{" "}
-              <a href="https://www.linkedin.com/in/djpiper28">
-                Linked In
-              </a>{" "}
+              <a href="https://www.linkedin.com/in/djpiper28">Linked In</a>{" "}
               profile
               <br />
               You can download my{" "}
-              <a href="https://djpiper28.co.uk/cdn/DannyPiper.pdf">
-                CV
-              </a>
+              <a href="https://djpiper28.co.uk/cdn/DannyPiper.pdf">CV</a>
               <br />
               You can contact me on Discord (I respond fastest here){" "}
               <b>Danny P.#6969</b>
