@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import ErrorBoundry from "error-boundary";
 import "./App.css";
 import Paragraph from "./Paragraph.jsx";
 import RoundImg from "./RoundImage.jsx";
@@ -43,6 +42,7 @@ function App() {
   }, []);
 
   useEffect(() => {
+    /*
     try {
       let repoData = [];
       Repos.map((repo) => {
@@ -61,6 +61,7 @@ function App() {
     } catch (e) {
       console.log(e);
     }
+    */
   });
 
   return (
@@ -231,30 +232,28 @@ function App() {
           </div>
         </div>
 
-        <ErrorBoundry>
-          <div className="RepoDiv">
-            {repos.map((repo) => (
-              <RepoCard
-                name={repo.name}
-                desc={repo.description}
-                url={repo.html_url}
-                lang={repo.language}
-                stars={repo.stargazers_count}
-                forks={repo.forks_count}
-              />
-            ))}
-            {externalRepos.map((repo) => (
-              <RepoCard
-                name={repo.name}
-                desc={repo.description}
-                url={repo.html_url}
-                lang={repo.language}
-                stars={repo.stargazers_count}
-                forks={repo.forks_count}
-              />
-            ))}
-          </div>
-        </ErrorBoundry>
+        <div className="RepoDiv">
+          {repos.map((repo) => (
+            <RepoCard
+              name={repo.name}
+              desc={repo.description}
+              url={repo.html_url}
+              lang={repo.language}
+              stars={repo.stargazers_count}
+              forks={repo.forks_count}
+            />
+          ))}
+          {externalRepos.map((repo) => (
+            <RepoCard
+              name={repo.name}
+              desc={repo.description}
+              url={repo.html_url}
+              lang={repo.language}
+              stars={repo.stargazers_count}
+              forks={repo.forks_count}
+            />
+          ))}
+        </div>
       </div>
 
       <div className="StackedDiv">
