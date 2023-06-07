@@ -42,7 +42,6 @@ function App() {
   }, []);
 
   useEffect(() => {
-    /*
     try {
       let repoData = [];
       Repos.map((repo) => {
@@ -61,8 +60,7 @@ function App() {
     } catch (e) {
       console.log(e);
     }
-    */
-  });
+  }, []);
 
   return (
     <div className="RootDiv">
