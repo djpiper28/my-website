@@ -273,7 +273,7 @@ function App() {
               <a href="https://djpiper28.co.uk/cdn/DannyPiper.pdf">CV</a>
               <br />
               You can contact me on Discord (I respond fastest here){" "}
-              <b>Danny P.#6969</b>
+              <b>@dannypiper</b>
               <br />
             </p>
           </div>
