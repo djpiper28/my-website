@@ -2,6 +2,7 @@
 const Repos = [
   "MonarchDevelopment/mtg-search-engine",
   "MonarchDevelopment/SquireDesktop",
+  "MonarchDevelopment/SquireCore",
   "rhul-compsoc/tito-integration-hackaway",
   "arcio-uk/Attendance-Backend",
 ];

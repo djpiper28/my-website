@@ -47,7 +47,7 @@ function App() {
       Repos.map((repo) => {
         fetch("https://api.github.com/repos/" + repo)
           .then((response) => response.json())
-          .then((data) => repoData.append(data));
+          .then((data) => repoData.push(data));
       });
       setExternalRepos(
         repoData.sort((a, b) => {
