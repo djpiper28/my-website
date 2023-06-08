@@ -87,3 +87,30 @@ body::-webkit-scrollbar-thumb:hover {
 html {
   scroll-behavior: smooth;
 }
+
+        #keyboard {
+            display: none;
+            position: fixed;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        #keyboard button {
+            margin: 5px;
+            padding: 5px 10px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            background: #3498db;
+            color: white;
+        }
+        #toggleButton {
+            position: fixed;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
