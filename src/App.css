@@ -52,11 +52,16 @@
 }
 
 .CardImage {
-  width: 50%;
+  max-width: 50%;
+  max-height: 300px;
   background-color: white;
   border-radius: 15px 0px 0px 15px;
   object-fit: contain;
   cursor: pointer;
+}
+
+.CardImage:hover {
+  scale: 110%;
 }
 
 .ImageDiv {
@@ -96,6 +101,10 @@
 .RepoName {
   cursor: pointer;
   color: rgb(200, 50, 255);
+}
+
+.RepoName:hover {
+  scale: 105%;
 }
 
 .RepoCardDiv {
@@ -141,8 +150,12 @@
 }
 
 .GithubAvatar {
-  height: 250px;
+  height: 100%;
   border-radius: 15px 0px 0px 15px;
+}
+
+.GithubAvatar:hover {
+  scale: 110%;
 }
 
 .GithubName {

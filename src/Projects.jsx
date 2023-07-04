@@ -16,6 +16,15 @@ function Projects() {
           "Techno-Bollox for it took a long time to make and I am proud of it."
         }
       />
+      <ImageCard
+        image_url="https://djpiper28.co.uk/cdn/bjss-week-1.JPG"
+        text="Survived Week 1 of BJSS Academy"
+        small_text={
+          "19/06/2023 - I survived week 1 of the academy program mostly intact. " +
+          "During this week I learnt a lot, and had a good time. Even got to go to " +
+          "Leeds, quite nice there actually."
+        }
+      />
       <ImageCard 
         image_url="https://djpiper28.co.uk/cdn/bjss-academy.jpg"
         text="Joining BJSS Academy"
