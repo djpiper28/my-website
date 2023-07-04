@@ -68,6 +68,25 @@ function Projects() {
         }
       />
       <Header text="2022" />
+      <ImageCard
+        href="https://devpost.com/software/hack-hack-revolution"
+        image_url="https://djpiper28.co.uk/cdn/ddr_mat.jpg"
+        text="Dance Dance Revolutions - Brunel Hack"
+        small_text={
+          "17/11/2022 - Well... I made an IOT dance mat that looked like an IED and " +
+          "had electronics so bad that the wind could disturb the calibration. Thankfully " +
+          "my friends helped me to make the project not an utter sh1tshow. Click this " +
+          "and read the Devpost please."
+        }
+      />
+      <Header text="2002" />
+      <Paragraph
+        text="Being Born"
+        small_text={
+          "10/07/2023 - I was born with a laptop in my infant hands writing Fortan. " +
+          "(I fact checked this). if (isItMyBirthday(today)) then doBirthdayThings() end"
+        }
+      />
     </div>
   );
 }
