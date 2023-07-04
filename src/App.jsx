@@ -6,6 +6,7 @@ import Header from "./Header.jsx";
 import ImageCard from "./ImageCard.jsx";
 import RepoCard from "./RepoCard.jsx";
 import Repos from "./Repos.jsx";
+import Projects from "./Projects.jsx"
 
 function App() {
   const [githubData, setGithubData] = useState({});
@@ -71,13 +72,11 @@ function App() {
         <Paragraph
           text={
             "I am Danny Piper, I am a very strong backend developer. " +
-            "Who likes C, C++, GoLang and, Python. I am always looking " +
+            "Who likes C, C++, Go, Java and, Python. I am always looking " +
             "for new opportunities to develop my skills and, meet new people."
           }
           small_text={
-            "I am in my second year of Computer Science (MSCI Information Security) at Royal Holloway of London. " +
-            "My favourite programming language is C, however that is not what is used the most at uni " +
-            "(can't see why). However, Java, which is used a lot, is still very nice. " +
+            "Working at BJSS as an Academy Engineer with their Award Winning program. " + 
             "All programming languages I use. (fluent) Java, (fluent) C, (fluent) Go, (fluent) Python, " +
             "(fluent) SQL, (learning) C++, (learning) Javascript & Typescript and, (very new) Rust. " +
             "Other technology I use: SQLite, Postgresql <3, Jenkins (makes this site!), Git & Github, SVN, (Arch) Linux " +
@@ -87,17 +86,19 @@ function App() {
       </div>
 
       <div className="StackedDiv">
-        <Header text="Professional" />
+        <Header text="Team Worker" />
         <ImageCard
           image_url="https://www.djpiper28.co.uk/cdn/all.jpg"
           text={
-            "Hard working, polite and, always looking for a challenge. " +
-            "I do my best work as a member of a team"
+            "During University I was part of many projects."
           }
           small_text={
-            "I have been working all my life. During sixth-form I worked at a fast food chain and, now at uni " +
-            "I have been spending a lot of time reading about databases and, other advanced topics. Also, " +
-            "I am currently working with some friends on a project called Arcio, stay tuned for more!"
+            "Whilst I was at university I worked with my friends in Hackathons, coding " +
+            "projects, team projects and more. I also helped with running Royal Hackaway " + 
+            "(my university's hackathon) twice. Notable projects include Arcio - a " +
+            "timetabling and attendence software; Cracked FM - an AI pirate radio station " +
+            "that won Hack Sussex (don't worry Ofcom it had a range of 5m); and Oxana - " +
+            "my second year team project which is an online ordering system for restaurants. You can find more info about these at the bottom of the page."
           }
         />
 
@@ -253,6 +254,9 @@ function App() {
           ))}
         </div>
       </div>
+
+      <Header text="Projects & Experience" />
+      <Projects />
 
       <div className="StackedDiv">
         <Header text="Contact Me" />

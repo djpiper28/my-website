@@ -8,7 +8,7 @@ const ImageCard = ({ image_url, href, text, small_text }) => {
         className="CardImage"
         onClick={() => {
           if (href != "") {
-            document.location.href = "https://github.com/MonarchDevelopment";
+            document.location.href = href;
           }
         }}
       />
