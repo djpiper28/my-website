@@ -73,7 +73,7 @@ function Projects() {
         image_url="https://djpiper28.co.uk/cdn/ddr_mat.jpg"
         text="Dance Dance Revolutions - Brunel Hack"
         small_text={
-          "17/11/2022 - Well... I made an IOT dance mat that looked like an IED and " +
+          "17/11/2022 - Well... I made an IOT dance mat that looked a bit sketchy and " +
           "had electronics so bad that the wind could disturb the calibration. Thankfully " +
           "my friends helped me to make the project not an utter sh1tshow. Click this " +
           "and read the Devpost please."
