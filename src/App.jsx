@@ -72,15 +72,15 @@ function App() {
         <Paragraph
           text={
             "I am Danny Piper, I am a very strong backend developer. " +
-            "Who likes C, C++, Go, Java and, Python. I am always looking " +
-            "for new opportunities to develop my skills and, meet new people."
+            "Who likes C, C++, Go, Java, and Python. I am always looking " +
+            "for new opportunities to develop my skills, and meet new people."         
           }
           small_text={
             "Working at BJSS as an Academy Engineer with their Award Winning program. " + 
             "All programming languages I use. (fluent) Java, (fluent) C, (fluent) Go, (fluent) Python, " +
-            "(fluent) SQL, (learning) C++, (learning) Javascript & Typescript and, (very new) Rust. " +
+            "(fluent) SQL, (learning) C++, (learning) Javascript & Typescript, and (very new) Rust. " +
             "Other technology I use: SQLite, Postgresql <3, Jenkins (makes this site!), Git & Github, SVN, (Arch) Linux " +
-            "Circle CI and, ReactJs (this site uses it!). "
+            "Circle CI, and ReactJs (this site uses it!). "
           }
         />
       </div>
@@ -106,11 +106,11 @@ function App() {
           <Paragraph
             text={
               "Always looking to learn - this year I have set out to learn new programming " +
-              "languages and technologies such as GoLang and, ReactJs to diversify my skills."
+              "languages and technologies such as GoLang, and ReactJs to diversify my skills."
             }
             small_text={
-              "I have been learning lots of different system programming languages such as C++ " +
-              "and, GoLang recently to improve my skills at problem solving. One of my favourites " +
+              "I have been learning lots of different system programming languages such as C++, " +
+              "and GoLang recently to improve my skills at problem solving. One of my favourites " +
               "that I have recently looked at is GoLang."
             }
           />
@@ -133,7 +133,7 @@ function App() {
           image_url="https://www.djpiper28.co.uk/cdn/compsoc.png"
           text={"RHUL Computing Society Outreach and Promotions (2022/2023)"}
           small_text={
-            "I have been working on the comittee to deliver fun and, educational events to " +
+            "I have been working on the comittee to deliver fun, and educational events to " +
             "Computer Science students at Royal Holloway. Recently we held a large event called " +
             "Royal Hackaway v5, the checkin system was written by me in C++. I was also the Events " +
             "Director in 2020/2021"
@@ -146,10 +146,10 @@ function App() {
             "I have been a volunteer developer at Monarch for just over a year now."
           }
           small_text={
-            "Together, a small team and I have been working on software to run and, analyse " +
+            "Together, a small team and I have been working on software to run, and analyse " +
             "tournaments for a niche eSports (cEDH MTG). For this I have written a large game " +
-            "bot in C and, worked on the python discord bot. Currently with this project we are " +
-            "working on a desktop app, rewrite of the discord bot and, an analysis website. " +
+            "bot in C, and worked on the python discord bot. Currently with this project we are " +
+            "working on a desktop app, rewrite of the discord bot, and an analysis website. " +
             "I am putting a lot of work into the desktop app at the moment which uses Qt, C++, " +
             "CMake, Rust FFI bindings using cbindgen. Overall this is a very exciting project."
           }
@@ -160,25 +160,25 @@ function App() {
         <Header text="Hobbies and Interests" />
         <div className="GenericGrid">
           <Paragraph
-            text="Self Hosting and, Linux Server Administration"
+            text="Self Hosting, and Linux Server Administration"
             small_text={
               "At the start of my second year at university, I purchased a second-hand server and " +
-              "getting into server administration and, learning how to use tools such as nginx and, systemd. " +
+              "getting into server administration, and learning how to use tools such as nginx, and systemd. " +
               "This has been a really fun time so far as I have learnt a lot about software such as firewalld " +
               "and, Postgresql. " +
-              "Infact, I use this quality server to serve this site and, automatically deploy it with Jenkins."
+              "Infact, I use this quality server to serve this site, and automatically deploy it with Jenkins."
             }
           />
           <ImageCard
             image_url="https://www.djpiper28.co.uk/cdn/powerwolf.jpg"
             href=""
             text="Listening to Metal"
-            small_text="I love to listen to listen to metal music, some of my favourite bands are Power Wolf (left), Sabaton, Motionless in White and, Raubtier."
+            small_text="I love to listen to listen to metal music, some of my favourite bands are Power Wolf (left), Sabaton, Motionless in White, and Raubtier."
           />
           <Paragraph
             text="Tabletop Wargames"
             small_text={
-              "I play Warhammer 40,000 and, other tabletop wargames with my friends. I really enjoy painting " +
+              "I play Warhammer 40,000, and other tabletop wargames with my friends. I really enjoy painting " +
               "my minis and building model kits. Unfortunately James Workshop are very pricy so I cannot buy " +
               "their kits and have a healthy wallet. I have been eyeing up Perry Miniatures lately... " +
               "However if you want to send me money or even give me a job so I waste more money then " +
@@ -191,7 +191,7 @@ function App() {
           href=""
           text="A Nice Cuppa"
           small_text={
-            "I enjoy chilling with my friends and, having a nice cuppa. I usually have coffee but I also love " +
+            "I enjoy chilling with my friends, and having a nice cuppa. I usually have coffee but I also love " +
             "a good cup of tea (and maybe even a bland biscuit to dip in it)."
           }
         />
@@ -199,17 +199,17 @@ function App() {
           <Paragraph
             text="Table Top Role Playing Games"
             small_text={
-              "I am also a fan of ttrps such as DnD, Call of Cthultu and, Cyberpunk. I play these with my " +
+              "I am also a fan of ttrps such as DnD, Call of Cthultu, and Cyberpunk. I play these with my " +
               "friends regularily and it is great fun."
             }
           />
           <Paragraph
             text="Programming In My Spare Time"
             small_text={
-              "I like to program in my spare time and, I have been working on a few great projects as of late: " +
+              "I like to program in my spare time, and I have been working on a few great projects as of late: " +
               " 'testing.h' (an ANSI C testing framework); 'Squire Core'/'Squire Desktop' (Monarch Development's) " +
               "tournament management software and; 'mtg-search-engine' a component of Squire Desktop " +
-              "that allows for indexing and, searching of Magic the Gathering cards."
+              "that allows for indexing, and searching of Magic the Gathering cards."
             }
           />
         </div>
