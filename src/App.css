@@ -169,6 +169,14 @@
   border-radius: 15px 0px 0px 15px;
 }
 
+@media only screen and (max-width:600px) {
+  .GithubAvatar {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0px 0px;
+  }
+}
+
 .GithubAvatar:hover {
   scale: 110%;
 }
@@ -195,6 +203,13 @@
   margin-bottom: 15px;
 }
 
+@media only screen and (max-width:600px) {
+  .GitBanner {
+    flex-direction: column;
+  }
+}
+
 html {
+  max-width: 100vw;
   scroll-behavior: smooth;
 }
