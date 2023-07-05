@@ -41,7 +41,7 @@
   justify-content: center;
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
 }
 
 .HDiv {
