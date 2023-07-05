@@ -41,7 +41,7 @@ function Projects() {
       />
       <ImageCard
         href="https://github.com/djpiper28/hack-sussex-23"
-        image_url="https://djpiper28.co.uk/cdn/crackedfm.png"
+        image_url="https://djpiper28.co.uk/cdn/crackedfm.JPG"
         text="Hack Sussex - Cracked FM!"
         small_text={
           "19/02/2023 - Sinan, Leo, and I won Hack Sussex with our Cracked FM! project " + 
