@@ -29,11 +29,19 @@
 .GenericGrid {
   width: 100%;
   justify-content: center;
-  display: flex;
-  flex-direction: row;
-  flex: 1 1 auto;
-  flex-wrap: wrap;
   gap: 1rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+@media only screen and (max-width:600px) {
+  .GenericGrid {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+  }
 }
 
 .RepoDiv {
@@ -41,7 +49,16 @@
   justify-content: center;
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+@media only screen and (max-width:600px) {
+  .RepoDiv {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+  }
 }
 
 .HDiv {
