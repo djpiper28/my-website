@@ -83,7 +83,7 @@ function Projects() {
       <Paragraph
         text="Being Born"
         small_text={
-          "10/07/2023 - I was born with a laptop in my infant hands writing Fortan. " +
+          "10/07/2002 - I was born with a laptop in my infant hands writing Fortan. " +
           "(I fact checked this). if (isItMyBirthday(today)) then doBirthdayThings() end"
         }
       />
