@@ -60,6 +60,15 @@
   cursor: pointer;
 }
 
+@media only screen and (max-width:600px) {
+  .CardImage {
+    border-radius: 15px 15px 0px 0px;
+    max-width: 100%;
+    width: 100%;
+    height: max;
+  }
+}
+
 .CardImage:hover {
   scale: 110%;
 }
@@ -73,6 +82,12 @@
   border-radius: 15px;
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
   margin-bottom: 15px;
+}
+
+@media only screen and (max-width:600px) {
+  .ImageDiv {
+    flex-direction: column;
+  }
 }
 
 .ImageDivText {
