@@ -68,7 +68,7 @@ function App() {
       <Header text="Danny Piper" />
 
       <div className="StackedDiv">
-        <RoundImg img_url="https://www.djpiper28.co.uk/cdn/main_image.jpg" />
+        <RoundImg img_url="https://djpiper28.co.uk/cdn/main_image.jpg" />
         <Paragraph
           text={
             "I am Danny Piper, I am a very strong backend developer. " +
@@ -88,7 +88,7 @@ function App() {
       <div className="StackedDiv">
         <Header text="Team Worker" />
         <ImageCard
-          image_url="https://www.djpiper28.co.uk/cdn/all.jpg"
+          image_url="https://djpiper28.co.uk/cdn/all.jpg"
           text={
             "During University I was part of many projects."
           }
@@ -115,7 +115,7 @@ function App() {
             }
           />
           <ImageCard
-            image_url="https://www.djpiper28.co.uk/cdn/skilled.png"
+            image_url="https://djpiper28.co.uk/cdn/skilled.png"
             href=""
             text="Life Long Programmer"
             small_text={
@@ -130,7 +130,7 @@ function App() {
         <Header text="Personal Projects" />
         <ImageCard
           href="https://computingsociety.co.uk"
-          image_url="https://www.djpiper28.co.uk/cdn/compsoc.png"
+          image_url="https://djpiper28.co.uk/cdn/compsoc.png"
           text={"RHUL Computing Society Outreach and Promotions (2022/2023)"}
           small_text={
             "I have been working on the comittee to deliver fun, and educational events to " +
@@ -141,7 +141,7 @@ function App() {
         />
         <ImageCard
           href="https://github.com/MonarchDevelopment"
-          image_url="https://www.djpiper28.co.uk/cdn/monarch.png"
+          image_url="https://djpiper28.co.uk/cdn/monarch.png"
           text={
             "I have been a volunteer developer at Monarch for just over a year now."
           }
@@ -170,7 +170,7 @@ function App() {
             }
           />
           <ImageCard
-            image_url="https://www.djpiper28.co.uk/cdn/powerwolf.jpg"
+            image_url="https://djpiper28.co.uk/cdn/powerwolf.jpg"
             href=""
             text="Listening to Metal"
             small_text="I love to listen to listen to metal music, some of my favourite bands are Power Wolf (left), Sabaton, Motionless in White, and Raubtier."
@@ -187,7 +187,7 @@ function App() {
           />
         </div>
         <ImageCard
-          image_url="https://www.djpiper28.co.uk/cdn/cuppa.jpg"
+          image_url="https://djpiper28.co.uk/cdn/cuppa.jpg"
           href=""
           text="A Nice Cuppa"
           small_text={
@@ -268,7 +268,7 @@ function App() {
               (djpiper28@gmail.com)
               <br />
               You can view my{" "}
-              <a href="https://www.linkedin.com/in/djpiper28">Linked In</a>{" "}
+              <a href="https://linkedin.com/in/djpiper28">Linked In</a>{" "}
               profile
               <br />
               You can download my{" "}
