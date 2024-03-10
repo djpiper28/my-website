@@ -19,7 +19,7 @@ pipeline {
             sh 'rm -r /home/static/my-website/* || true'
             sh 'cp -r ./dist/* /home/static/my-website/'
             sh 'cp -r ./cdn/cdn /home/static/my-website/'
-            sh '/home/scripts/restart_nginx'
+            sh 'sudo /home/scripts/restart_nginx'
           }
         }
     }
