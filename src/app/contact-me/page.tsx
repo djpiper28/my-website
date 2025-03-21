@@ -25,7 +25,20 @@ export default function Page() {
             Github: <Link href={githubUrl}>djpiper28</Link>
           </P>
         </li>
+        <li>
+          <P>
+            Devpost:{" "}
+            <Link href={"https://devpost.com/djpiper28"}>djpiper28</Link>
+          </P>
+        </li>
+        <li>
+          <P>LinkedIn: deleted</P>
+        </li>
       </ul>
+      <P>
+        I have a limited amount of social media, many of which I wish to close
+        down. I do not like social media and do not want to use it.
+      </P>
     </>
   );
 }

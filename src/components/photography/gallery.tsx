@@ -17,7 +17,7 @@ export function Gallery(props: Readonly<Props>) {
         <Image
           key={x.src}
           src={x.src}
-          className="aspect-square object-cover"
+          className="aspect-square object-cover rounded"
           alt={x.alt}
           width={imageSize}
           height={imageSize}
