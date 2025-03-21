@@ -10,16 +10,22 @@ pipeline {
 
         stage('Build') {
           steps {
-            sh 'npm run build'
+            sh 'docker build -t my-website .'
+            sh 'docker tag my-website localhost:5000/my-website'
           }
         }
 
-        stage('Deploy') {
+        stage('Push') {
           steps {
-            sh 'rm -r /home/static/my-website/* || true'
-            sh 'cp -r ./dist/* /home/static/my-website/'
-            sh 'cp -r ./cdn/cdn /home/static/my-website/'
-            sh 'sudo /home/scripts/restart_nginx'
+            sh 'docker push localhost:5000/my-website'
+          }
+        }
+
+        stage('Package') {
+          steps {
+            sh '/var/lib/jenkins/go/bin/helmVersioner my-website/Chart.yaml'
+            sh 'helm install my-website my-website || true'
+            sh 'helm upgrade my-website my-website'
           }
         }
     }
