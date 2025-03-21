@@ -85,6 +85,10 @@ export default function Page() {
         version has a Go API client, and an Open API definition so it can be
         used in your projects if you want to.
       </P>
+      <P>
+        There is a lot of testing setup for the project, about 80% coverage,
+        with unit tests, system tests, memory tests, and integration tests.
+      </P>
     </>
   );
 }
