@@ -81,7 +81,7 @@ export default function Home() {
             <li>
               <Project
                 name="Incremental JSON Parser"
-                description="An Incremental JSON Parser library for Rust, that allows for fast memory efficient parsing of large JSON files. (WIP, when I finish it I will add more info)"
+                description="An Incremental JSON Parser library for Rust, that allows for fast memory efficient parsing of large JSON files. (Under development, when I finish it I will add more info). When I finish it I intend to use it with my MTG Search Engine to accelerate the processing of the MTG JSON data source."
                 repoUrl="https://github.com/djpiper28/inc-json-rs"
                 languages={[Language.Rust]}
               />
@@ -98,9 +98,10 @@ export default function Home() {
                   live-streaming aspect of the hybrid event which was moderately
                   stressful. During v7 and v8 I did most of the photography.
                   <p className="text-sm">
-                    Although do to a &quot;Mass Ass Chew Sets&quot; incident I
-                    will be avoiding MLH like the plague. For the reasons of not
-                    being done for libel I won&apos;t add much more to this.
+                    Although due to a &quot;Mass Ass Chew Sets&quot; incident I
+                    will be avoiding MLH like the plague as they were quite
+                    unreasonable and over-stepping. For the reasons of not being
+                    done for libel I won&apos;t add much more to this.
                   </p>
                 </P>
               </div>
@@ -152,16 +153,21 @@ export default function Home() {
           <P>
             I run and play in a few different TTRPGs. I especially like to play
             with the Old-School Essentials system as old school role-playing is
-            my cup of tea.
+            my cup of tea. To help with running these games I am in the early
+            stages of creating a tool to manage characters, locations, and
+            factions which will use graphs to help sort data.
           </P>
         </li>
         <li>
           <P>Photography</P>
           <P>
             I have been dabbling with astro-photography lately, and I have a
-            somewhat jury-rigged setup at the moment. I also enjoy macro
-            photography, and landscape photography with churches, rivers, the
-            odd goose.
+            somewhat jury-rigged setup at the moment. Howver, as you would
+            expect for a Brit, I have had nothing but clouds and rain when I
+            have tried to use my equipment. I also enjoy macro photography, and
+            landscape photography with churches, rivers, the odd goose. I have
+            been using GIMP and Siril for the post-processing of the images that
+            I have taken and found it very stress relieving.
           </P>
           <Gallery
             images={[
