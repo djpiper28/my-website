@@ -5,18 +5,23 @@ import { P } from "../typrography/P";
 export function Footer() {
   return (
     <footer className="flex flex-col md:px-10 p-2 bg-slate-300">
-      <p>
-        (C) Danny Piper 2025, Unlicense,{" "}
+      <P>
+        (C) Danny Piper 2025, Unlicense (public domain),{" "}
         <Link href={githubUrl + "/my-website"}>Source Code</Link>
-      </p>
+      </P>
       <div className="flex flex-row flex-wrap gap-2">
-        <p>
+        <P>
           <Link href={githubUrl}>My Github</Link>
-        </p>
+        </P>
         <Sep />
-        <p>
+        <P>
           <Link href={"/contact-me"}>Contact me</Link>
-        </p>
+        </P>
+        <Sep />
+        <P>
+          Please do not use my content to train AI. I cannot stop you from doing
+          it but, I will hate you for it.
+        </P>
       </div>
     </footer>
   );
