@@ -93,6 +93,10 @@ export default function Home() {
             Discord bots. I have setup a Kubernetes cluster (with a stunning one
             node for cost reasons) that I host all of my applications on.
           </P>
+          <P>
+            You can learn more about my setup{" "}
+            <Link href="/self-hosting">here</Link>.
+          </P>
         </li>
         <li>
           <P>Tabletop Wargaming</P>

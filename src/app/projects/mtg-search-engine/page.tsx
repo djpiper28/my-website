@@ -1,3 +1,4 @@
+import { DiagramBox } from "@/components/containers/diagramBox";
 import { H1 } from "@/components/typrography/H1";
 import { H2 } from "@/components/typrography/H2";
 import { H3 } from "@/components/typrography/H3";
@@ -34,13 +35,13 @@ export default function Page() {
         </Link>
         ).
       </P>
-      <div className="flex justify-center w-full p-5">
+      <DiagramBox>
         <img
           src="/projects/mtg-search-engine/interpreter.drawio.svg"
           alt="Diagram of the interpreter"
           className="md:w-1/2 border-slate-300 p-5 border-2"
         />
-      </div>
+      </DiagramBox>
       <P>
         The above example generates two sets to start with: the set of all cards
         printed in M19, and the set of all cards that are legal in commander.
