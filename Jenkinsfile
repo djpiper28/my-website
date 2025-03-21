@@ -2,12 +2,6 @@ pipeline {
     agent { label 'master' }
 
     stages {
-        stage('Install') {
-            steps {
-              sh 'npm i'
-            }
-        }
-
         stage('Build') {
           steps {
             sh 'docker build -t my-website .'
