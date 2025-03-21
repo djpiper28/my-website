@@ -5,5 +5,9 @@ interface Props {
 }
 
 export function DiagramBox(props: Readonly<Props>) {
-  return <div className="flex justify-center w-full p-5">{props.children}</div>;
+  return (
+    <div className="flex justify-center">
+      <div className="p-5 border-slate-300 border-2">{props.children}</div>
+    </div>
+  );
 }

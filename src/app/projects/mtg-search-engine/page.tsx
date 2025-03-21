@@ -39,7 +39,6 @@ export default function Page() {
         <img
           src="/projects/mtg-search-engine/interpreter.drawio.svg"
           alt="Diagram of the interpreter"
-          className="md:w-1/2 border-slate-300 p-5 border-2"
         />
       </DiagramBox>
       <P>
