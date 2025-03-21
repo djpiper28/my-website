@@ -1,3 +1,4 @@
+import { Gallery } from "@/components/photography/gallery";
 import { H1 } from "@/components/typrography/H1";
 import { H2 } from "@/components/typrography/H2";
 import { P } from "@/components/typrography/P";
@@ -50,6 +51,30 @@ export default function Home() {
             photography, and landscape photography with churches, rivers, the
             odd goose.
           </P>
+          <Gallery
+            images={[
+              {
+                src: "/photography-portfolio/geese.jpg",
+                alt: "A picture of 2 geese on a river.",
+              },
+              {
+                src: "/photography-portfolio/swan.jpg",
+                alt: "A picture of a swan and a cygnet on a river.",
+              },
+              {
+                src: "/photography-portfolio/lizard.jpg",
+                alt: "A close-up of a lizard's face.",
+              },
+              {
+                src: "/photography-portfolio/beee.jpeg",
+                alt: "A close-up of a bumble bee next to some lavinder.",
+              },
+              {
+                src: "/photography-portfolio/chester_cathedral.jpg",
+                alt: "A picture of the interior of Chester Cathedral, where you can see across thentire building.",
+              },
+            ]}
+          />
         </li>
       </ul>
     </>
