@@ -2,6 +2,9 @@ import { Gallery } from "@/components/photography/gallery";
 import { H1 } from "@/components/typrography/H1";
 import { H2 } from "@/components/typrography/H2";
 import { P } from "@/components/typrography/P";
+import { Language, Project } from "./project";
+import { githubUrl } from "@/consts";
+import { Link } from "@/components/typrography/Link";
 
 export default function Home() {
   return (
@@ -11,6 +14,45 @@ export default function Home() {
         Hello World! I am Danny Piper, a Software Engineer working at Motorola
         Solutions, with an interest in solving complex problems with software.
       </P>
+      <H2>My Projects</H2>
+      <P>
+        All projects can be found on my{" "}
+        <Link href={githubUrl}>Github Page</Link>
+      </P>
+      <ul className="list-disc">
+        <li>
+          <Project
+            name="My Website"
+            description="This very website."
+            repoUrl={`${githubUrl}/my-website`}
+            languages={[Language.Typescript, Language.NextJs]}
+          />
+        </li>
+        <li>
+          <Project
+            name="MTG Search Engine"
+            description="A search engine for 'Magic: The Gathering' that has a syntax similar to Scryfall."
+            repoUrl="https://github.com/SquireTournamentServices/mtg-search-engine"
+            languages={[
+              Language.C,
+              Language.Cmake,
+              Language.Python,
+              Language.Typescript,
+              Language.NextJs,
+              Language.Go,
+            ]}
+            internalUrl="/projects/mtg-search-engine"
+          />
+        </li>
+        <li>
+          <Project
+            name="Cockatrice Tournament Bot"
+            description="A (now defunct) bot that helped to run tournaments for 'Magic: The Gathering' during The Covid Pandemic."
+            repoUrl={`${githubUrl}/CockatriceTournamentBot`}
+            languages={[Language.C, Language.Cpp, Language.Cmake]}
+          />
+        </li>
+      </ul>
       <H2>My Interests</H2>
       <ul className="list-disc">
         <li>

@@ -3,5 +3,5 @@ interface Props {
 }
 
 export function H2(props: Readonly<Props>) {
-  return <h2 className="text-2xl">{props.children}</h2>
+  return <h2 className="text-2xl font-semibold">{props.children}</h2>
 }

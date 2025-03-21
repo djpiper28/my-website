@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
+import { H3 } from "./H3";
 import { H2 } from "./H2";
 import { H1 } from "./H1";
 import { P } from "./P";
@@ -14,6 +15,8 @@ function AllHeaders(props: Readonly<Props>) {
       <H1>{props.children}</H1>
       <p>H2:</p>
       <H2>{props.children}</H2>
+      <p>H3:</p>
+      <H3>{props.children}</H3>
       <p>P:</p>
       <P>{props.children}</P>
     </div>
