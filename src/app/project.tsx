@@ -13,6 +13,7 @@ export enum Language {
   Cmake = "Cmake",
   Proto = "Protocol Buffers",
   Python = "Python",
+  Java = "Java",
 }
 
 interface Props {

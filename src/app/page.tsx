@@ -16,8 +16,8 @@ export default function Home() {
       </P>
       <H2>My Projects</H2>
       <P>
-        All projects can be found on my{" "}
-        <Link href={githubUrl}>Github Page</Link>
+        Here is a selection of my favourite projects, all of my projects can be
+        found on my <Link href={githubUrl}>Github Page</Link>
       </P>
       <ul className="list-disc">
         <li>
@@ -50,6 +50,30 @@ export default function Home() {
             description="A (now defunct) bot that helped to run tournaments for 'Magic: The Gathering' during The Covid Pandemic."
             repoUrl={`${githubUrl}/CockatriceTournamentBot`}
             languages={[Language.C, Language.Cpp, Language.Cmake]}
+          />
+        </li>
+        <li>
+          <Project
+            name="AI Pirate Radio"
+            description="The winner of Hack Sussex 2023, the codebase is quite messed but the project is very cool."
+            repoUrl="https://github.com/djpiper28/hack-sussex-23"
+            languages={[Language.Python, Language.Java]}
+          />
+        </li>
+        <li>
+          <Project
+            name="Cards Against Humanity Clone"
+            description="Yet another clone of Cards Against Humanity, written in Go using websockets."
+            repoUrl="https://github.com/djpiper28/cards-against-humanity"
+            languages={[Language.Typescript, Language.Go]}
+          />
+        </li>
+        <li>
+          <Project
+            name="Incremental JSON Parser"
+            description="An Incremental JSON Parser library for Rust, that allows for fast memory efficient parsing of large JSON files. (WIP, when I finish it I will add more info)"
+            repoUrl="https://github.com/djpiper28/inc-json-rs"
+            languages={[Language.Rust]}
           />
         </li>
       </ul>
