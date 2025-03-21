@@ -97,12 +97,6 @@ export default function Home() {
                   v7 and v8. During v5 and v6 I wokred mostly on the
                   live-streaming aspect of the hybrid event which was moderately
                   stressful. During v7 and v8 I did most of the photography.
-                  <p className="text-sm">
-                    Although due to a &quot;Mass Ass Chew Sets&quot; incident I
-                    will be avoiding MLH like the plague as they were quite
-                    unreasonable and over-stepping. For the reasons of not being
-                    done for libel I won&apos;t add much more to this.
-                  </p>
                 </P>
               </div>
             </li>
@@ -204,21 +198,30 @@ export default function Home() {
       <H3>Motorola Solutions (late 2024-now)</H3>
       <P>
         I have been doing some very interesting work on the backend of a
-        security camera system. Fun things include testing various AI providers
+        security camera system. This includes writing Go, database migrations,
+        working with video, and Fun things include testing various AI providers
         and comparing the outputs. I would love to say more about this exciting
         job but I don&apos;t think I can.
       </P>
       <H3>BJSS (mid 2023- late 2024)</H3>
       <P>
-        At BJSS I worked on a website for a regulatory body that was written in{" "}
-        {Language.NextJs}, {Language.Typescript}, and {Language.CSharp}. The
-        software was deployed in Kubernetes, and had a micro-service
-        architecture. I wrote a{" "}
+        Upon joining the company I underwent their internal training program
+        &quot;BJSS Academy&quot; which was fantastic. I would go as far to
+        recommend it to any people wishing to break into the industry. From
+        completing this program I got a City and Guilds certificate.
+      </P>
+      <P>
+        After the training I worked on a website for a regulatory body that was
+        written in {Language.NextJs}, {Language.Typescript}, and{" "}
+        {Language.CSharp}. The software was deployed in Kubernetes, and had a
+        micro-service architecture. I wrote a{" "}
         <Link href="https://docs.docker.com/compose/">Docker compose file</Link>{" "}
         to host all of the services locally. There were about 22 containers (it
-        was wild). Here are some of the containers.
+        was wild). Here are some of the containers. Not all are listed as many
+        where the same container with different configurations to mimic
+        different environments.
       </P>
-      <ol className="list-decimal flex flex-row flex-wrap gap-x-10">
+      <ol className="list-disc flex flex-row flex-wrap gap-x-10">
         <li>PostgreSQL</li>
         <li>Redis</li>
         <li>New platform webapp</li>
@@ -232,6 +235,32 @@ export default function Home() {
         <li>Wiremock (this software is so jank)</li>
         <li>Documentation site</li>
       </ol>
+      <P>
+        Whilst working in this role, I took an active involvement in the testing
+        and planning of the project.
+      </P>
+      <H3>Arcio (2022)</H3>
+      <P>
+        Arcio is a now defunct startup that I worked on with some of my
+        university friends. It aimed at simplying online education tools.
+        However the industry is notoriously hard to penetrate and our project
+        was not able to go anywhere. It was a very interesting project though. I
+        learnt a lot about databases at scale, micro-services, and team work.
+        You can find our source code on{" "}
+        <Link href="https://github.com/arcio-uk">Github</Link>.
+      </P>
+      <H3>IBM (2018)</H3>
+      <P>
+        For one week in 2018, when I was about 16 years old, I did some work
+        experience in Hursely. it was great fun I had my own laptop, my own
+        email, my own keycard - all you want when you are 16. I did some work
+        with a mentor on the testing of ZOS (a mainframe operating system),
+        notablly a code scanner to detect things that are not compliant. That
+        being said it was not a linter, it just searched for strings such as
+        &quot;object code only&quot;, and the other forms it may appear in. I
+        got to look at the datacenter and see all of the mainframes. It was very
+        inspiring as a young boy.
+      </P>
     </>
   );
 }
