@@ -41,7 +41,7 @@ export default function Home() {
             <li>
               <Project
                 name="MTG Search Engine"
-                description="A search engine for 'Magic: The Gathering' that has a syntax similar to Scryfall."
+                description="A search engine for 'Magic: The Gathering' that has a syntax similar to Scryfall. It uses lots of indexes, and algorithms to help make it lightning fast."
                 repoUrl="https://github.com/SquireTournamentServices/mtg-search-engine"
                 languages={[
                   Language.C,
@@ -57,7 +57,7 @@ export default function Home() {
             <li>
               <Project
                 name="Cockatrice Tournament Bot"
-                description="A (now defunct) bot that helped to run tournaments for 'Magic: The Gathering' during The Covid Pandemic."
+                description="A (now defunct) bot that helped to run tournaments for 'Magic: The Gathering' during The Covid Pandemic. During its use it helped to run many tournaments with up to 100ish players. Since then the need for it has disappeared as in person play has resumed."
                 repoUrl={`${githubUrl}/CockatriceTournamentBot`}
                 languages={[Language.C, Language.Cpp, Language.Cmake]}
               />
@@ -84,6 +84,14 @@ export default function Home() {
                 description="An Incremental JSON Parser library for Rust, that allows for fast memory efficient parsing of large JSON files. (Under development, when I finish it I will add more info). When I finish it I intend to use it with my MTG Search Engine to accelerate the processing of the MTG JSON data source."
                 repoUrl="https://github.com/djpiper28/inc-json-rs"
                 languages={[Language.Rust]}
+              />
+            </li>
+            <li>
+              <Project
+                name="UEFI hacking Game"
+                description="A game you can play on your PC in UEFI mode that is inspired by the Fallout hacking mini-game. This was made by a good friend and I as part of a one day game jam. An event judge decided to set the game as his boot device and was so bad at the game he was unable to boot his device."
+                repoUrl="https://github.com/pilksoc/uefi-hacking-game"
+                languages={[Language.C]}
               />
             </li>
             <li>
