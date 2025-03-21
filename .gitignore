@@ -23,3 +23,5 @@ dist-ssr
 *.sln
 *.sw?
 .next
+
+*storybook.log
