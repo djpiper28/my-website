@@ -3,7 +3,6 @@ import { H2 } from "@/components/typrography/H2";
 import { H3 } from "@/components/typrography/H3";
 import { Link } from "@/components/typrography/Link";
 import { P } from "@/components/typrography/P";
-import Image from "next/image";
 
 export default function Page() {
   return (
