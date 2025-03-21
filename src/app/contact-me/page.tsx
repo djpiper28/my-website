@@ -11,7 +11,7 @@ export default function Page() {
         Please be respectful when you contact me. That means -{" "}
         <span className="font-bold">don&apos;t be a dick.</span>
       </P>
-      <ul>
+      <ul className="list-disc">
         <li>
           <P>
             Email:{" "}
