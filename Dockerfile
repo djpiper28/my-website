@@ -1,6 +1,7 @@
 # syntax=docker.io/docker/dockerfile:1
 
 FROM node:18-alpine AS base
+RUN npm add -g pnpm
 
 # Install dependencies only when needed
 FROM base AS deps
@@ -10,7 +11,6 @@ WORKDIR /app
 
 # Install dependencies based on the preferred package manager
 COPY package.json yarn.lock* package-lock.json* pnpm-lock.yaml* .npmrc* ./
-RUN npm add -g pnpm
 RUN pnpm i --frozen-lockfile
 
 
