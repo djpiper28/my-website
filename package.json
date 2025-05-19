@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "codegen": "go generate ./...",
+    "dev": "npm run codegen && next dev",
+    "build": "npm run codegen && next build",
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
