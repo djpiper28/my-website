@@ -12,6 +12,8 @@ import (
 	"path/filepath"
 	"strconv"
 	"strings"
+
+	"golang.org/x/exp/slices"
 )
 
 const (
@@ -88,6 +90,18 @@ func main() {
 		log.Fatalf("Cannot start server: %s", err)
 	}
 
+	slices.SortFunc(metaDatas, func(i, j int) bool {
+		if metaDatas[i].Year < metaDatas[j].Year {
+			return true
+		}
+
+		if metaDatas[i].Month < metaDatas[j].Month {
+			return true
+		}
+
+		return false
+	})
+
 	output := `// AUTO GENERATED - DO NOT MODIFY BY HAND
 import { type BlogMeta } from '../meta.ts';
 
@@ -107,7 +121,7 @@ export const allBlogs: BlogMetaWithUrl[] = [
 `
 
 	for _, metaData := range metaDatas {
-    output += fmt.Sprintf("    {url: '%s', ...%s},\n", metaData.RelativeUrl, metaData.Alias)
+		output += fmt.Sprintf("    {url: '%s', ...%s},\n", metaData.RelativeUrl, metaData.Alias)
 	}
 	output += "];\n"
 
