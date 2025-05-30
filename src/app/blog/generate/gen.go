@@ -40,7 +40,7 @@ func parseFileName(path string) (FileData, error) {
 	sha := hex.EncodeToString(hasher.Sum(nil))
 	ret := FileData{
 		RelativeUrl:    fmt.Sprintf("/blog/%s", dir[3:]),
-		MetaImportPath: fmt.Sprintf("%s/meta.tsx", dir),
+		MetaImportPath: fmt.Sprintf("%s/meta", dir),
 		Alias:          fmt.Sprintf("meta_%s", sha),
 	}
 
@@ -103,7 +103,7 @@ func main() {
 	})
 
 	output := `// AUTO GENERATED - DO NOT MODIFY BY HAND
-import { type BlogMeta } from '../meta.ts';
+import { type BlogMeta } from '../meta';
 
 `
 
