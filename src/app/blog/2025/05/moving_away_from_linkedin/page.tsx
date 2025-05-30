@@ -29,6 +29,19 @@ export default function Page() {
         times these posts read more like a Stack Overflow page, not a tehnical
         blog.
       </P>
+      <H2>Mental Health</H2>
+      <P>
+        It is not just LinkedIn that I find problematic, most social media
+        suffer from similar issues. I always find these sites make it easy to
+        &quot;doom scroll&quot;, which for me always leads to many issues. I
+        think that issues with social media affects a lot of people, and cutting
+        them out is what worked for me.
+      </P>
+      <H2>What Does This Mean For You?</H2>
+      <P>
+        Pretty much nothing. If you are a recruiter, use my email. Otherwise it
+        doesn&apos;t mean anything.
+      </P>
     </>
   );
 }
