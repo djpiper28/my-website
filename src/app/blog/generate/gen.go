@@ -90,16 +90,16 @@ func main() {
 		log.Fatalf("Cannot start server: %s", err)
 	}
 
-	slices.SortFunc(metaDatas, func(i, j int) bool {
-		if metaDatas[i].Year < metaDatas[j].Year {
-			return true
+	slices.SortFunc(metaDatas, func(i, j FileData) int {
+		if i.Year < j.Year {
+			return -1
 		}
 
-		if metaDatas[i].Month < metaDatas[j].Month {
-			return true
+		if i.Month < j.Month {
+			return -1
 		}
 
-		return false
+		return strings.Compare(i.Alias, j.Alias)
 	})
 
 	output := `// AUTO GENERATED - DO NOT MODIFY BY HAND
