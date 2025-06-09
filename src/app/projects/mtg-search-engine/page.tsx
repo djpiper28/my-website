@@ -17,7 +17,7 @@ export default function Page() {
           monarch.djpiper28.co.uk
         </Link>
         . The source code is available on{" "}
-        <Link href="https://github.com/SquireTournamentServices/mtg-search-engine">
+        <Link href="https://github.com/djpiper28/mtg-search-engine">
           Github
         </Link>
         .

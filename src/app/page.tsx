@@ -42,7 +42,7 @@ export default function Home() {
               <Project
                 name="MTG Search Engine"
                 description="A search engine for 'Magic: The Gathering' that has a syntax similar to Scryfall. It uses lots of indexes, and algorithms to help make it lightning fast."
-                repoUrl="https://github.com/SquireTournamentServices/mtg-search-engine"
+                repoUrl="https://github.com/djpiper28/mtg-search-engine"
                 languages={[
                   Language.C,
                   Language.Cmake,
