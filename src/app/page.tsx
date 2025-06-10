@@ -175,7 +175,7 @@ export default function Home() {
             images={[
               {
                 src: "/photography-portfolio/geese.jpg",
-                alt: "A picture of 2 geese on a river.",
+                alt: "A close-up of an Egyptian goose's face.",
               },
               {
                 src: "/photography-portfolio/swan.jpg",
@@ -192,6 +192,10 @@ export default function Home() {
               {
                 src: "/photography-portfolio/chester_cathedral.jpg",
                 alt: "A picture of the interior of Chester Cathedral, where you can see across thentire building.",
+              },
+              {
+                src: "/photography-portfolio/cormorant.jpg",
+                alt: "A picture of a Great Cormorant with a fish in its mouth.",
               },
             ]}
           />
@@ -241,7 +245,7 @@ export default function Home() {
         <li>API that talks to the old database</li>
         <li>API that talks to MS Dynamics</li>
         <li>Wiremock (this software is so jank)</li>
-        <li>Documentation site</li>
+        <li>Dashboard page</li>
       </ol>
       <P>
         Whilst working in this role, I took an active involvement in the testing

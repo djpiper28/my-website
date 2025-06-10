@@ -10,9 +10,9 @@ interface Props {
 }
 
 export function Gallery(props: Readonly<Props>) {
-  const imageSize = 300;
+  const imageSize = 350;
   return (
-    <div className="flex flex-row flex-wrap gap-3">
+    <div className="flex flex-row flex-wrap gap-3 justify-between">
       {props.images.map((x) => (
         <Image
           key={x.src}
