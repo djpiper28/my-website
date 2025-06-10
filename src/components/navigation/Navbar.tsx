@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function Navbar() {
   return (
-    <nav className="w-full flex flex-row justify-between items-center p-2 md:px-10 bg-slate-300">
+    <nav className="w-full flex flex-row justify-between items-center p-2 md:px-10 bg-pink-700 text-slate-100">
       <Link href="/" prefetch={true}>
         <h2 className="font-bold text-2xl">djpiper28.co.uk</h2>
       </Link>
