@@ -27,7 +27,7 @@ export default function Page() {
       </P>
       <H2>Risks of A Privacy Poor Age Verification Process</H2>
       <P>
-        I think that there are four main threats of a poorly implmeneted age
+        I think that there are four main threats of a poorly implemented age
         verification process: fraud, attacks and othe real world harm, tracking,
         and sending users to a darker place.
       </P>
@@ -44,7 +44,7 @@ export default function Page() {
         occur if attackers had knowledge of content that you were watching. This
         data could very well become public (or sold on the dark web) if there
         was a cyber attack that stole it. Things that I would compare this
-        threat to is wire tapping, (think of Prince Harry and the tabloids.{" "}
+        threat to is wire tapping, (think of Prince Harry and the tabloids,{" "}
         <Link href="https://www.bbc.co.uk/news/uk-67122719">
           See BBC reporting
         </Link>
@@ -64,6 +64,24 @@ export default function Page() {
         cookies in private browsing tabs back to the identity of the main
         browser.
       </P>
+      <H3>Sending Users To A Darker Place</H3>
+      <P>
+        One of the risks of age restrictions on porn websites is users going to
+        alternative websites that do not follow the regulations. These will
+        likely be foreign websites that do not respond to regulators, and they
+        will likely have more advertising (with less vetting) and have
+        unregulated content. It is likely that users who go to darker sites
+        would be supporting the abuse of their actors.
+      </P>
+      <P>
+        Another risk of users using these bad websites is that they may be
+        likely for phising and scamming, perhaps by signing up to these sites.
+      </P>
+      <P>
+        Usage of these sites is likely avoidable if search engine and social
+        media companies companies take the actions that they should be required
+        to by deleting the content.
+      </P>
       <H2>Bypassing Age Verification</H2>
       <P>
         Another cause of concern around the regulation is how easy it will be to
@@ -82,9 +100,57 @@ export default function Page() {
         VPNs, fake cameras, or similar bypasses - therefore they their data will
         be at risk.
       </P>
-      TOOD: finish this. VPNs Fake cameras/deep fakes Not really an issue
+      <P>
+        Overall I do not think that there is much of a risk of children and
+        teenagers bypassing age restrictions to access that they should not be
+        allowed to. I would also add that illegal online gambling is likely to
+        have a similar risk profile, and the age verification there is a prime
+        of example of great legislation.
+      </P>
       <H2>Security Issues</H2>
-      TODO: hacking of the personal data. phising concerns, etc
+      <H3>Effects of A Data Breach</H3>
+      <P>
+        As I have already stated any data that is stolen can cause a lot of harm
+        to the victims. Given that most porn sites use pre-historic technology,
+        i.e: PornHub with PHP, I would not trust them with my ID, hence I
+        support PornHub&apos;s call for the data to be handled by trusted
+        identity providers. A good way to avoid any security attacks is not to
+        store the data. If the age verification where transient and setup in a
+        way to not share identitiable documents then the risk can be entirely
+        mitigated. However the ID provider would still have a risk of documents
+        being stolen if they were to retain them. I will go into detail later
+        about what an ideal solution would like.
+      </P>
+      <H3>Potential For Phising Attacks</H3>
+      <P>
+        This is, in my opinion, the largest threat of poorly implemented age
+        checks. I can see the attack working as follows:
+      </P>
+      <ol className="list-decimal">
+        <li>A user goes to a malicious site</li>
+        <li>
+          They are informed that they need to verify their age to access the
+          content
+        </li>
+        <li>
+          The user is taken to a page that looks official asks for valid ID
+        </li>
+        <li>The user then submits their ID to a malicious website</li>
+        <li>
+          They then get access to the their content and are not aware they have
+          been scammed
+        </li>
+      </ol>
+      <P>
+        The reprecussions of this type are attack would be very severe, ranging
+        from blackmail, to fraud. It is likely that such an attack will cause
+        finanical harm, and potentially even physical harm.
+      </P>
+      <P>
+        Like most phising attacks this can be avoided by good policies (on the
+        identity providers), and education. It would be wise for regulators to
+        make adverts about the potential for phising.
+      </P>
       <H2>Conclusion</H2>
       TODO: check that YOTI or similar apps do not provide information, and
       attach a diagram and explanation of how any solution should work.
@@ -93,6 +159,10 @@ export default function Page() {
         No AI was used to generate text that appears on this website, however
         Google Gemini was used to help read the legalese that is the act in
         question.
+      </P>
+      <P>
+        This content cannot be used to train AI, putting this article into some
+        AI providers will use it as training material so I would avoid doing so.
       </P>
     </>
   );
