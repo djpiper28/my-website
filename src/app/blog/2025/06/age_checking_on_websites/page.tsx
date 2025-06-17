@@ -119,7 +119,7 @@ export default function Page() {
         way to not share identitiable documents then the risk can be entirely
         mitigated. However the ID provider would still have a risk of documents
         being stolen if they were to retain them. I will go into detail later
-        about what an ideal solution would like.
+        about what <Link href="#solution">an ideal solution would like</Link>.
       </P>
       <H3>Potential For Phising Attacks</H3>
       <P>
@@ -149,11 +149,61 @@ export default function Page() {
       <P>
         Like most phising attacks this can be avoided by good policies (on the
         identity providers), and education. It would be wise for regulators to
-        make adverts about the potential for phising.
+        make adverts about the potential for phising, if this is done then the
+        risk would be low.
       </P>
-      <H2>Conclusion</H2>
-      TODO: check that YOTI or similar apps do not provide information, and
-      attach a diagram and explanation of how any solution should work.
+      <H2 id="solution">An Ideal Age Verification Solution</H2>
+      <P>
+        An ideal solution would be for there to be a global standard for
+        internet age verification, an RFC lets say. It should uses public key
+        cryptography and be privacy focused. Using the platform would involve a
+        mobile phone, and app switching to make it absolutely clear to the user
+        that they are on the trusted platform.
+      </P>
+      <P>
+        I would propose that a user flow is as follows:
+        <ol className="list-decimal">
+          <li>The user access an age restricted website</li>
+          <li>
+            The website asks for verification, by opening an app, or showing a
+            QR code
+          </li>
+          <li>
+            The user follows the link/code and opens their app, a cryptographic
+            nonce is transfered to the app
+          </li>
+          <li>The app asks the user to copy a code into the application</li>
+          <li>The user copies the code into the age restrictions website</li>
+          <li>
+            The website can see that the UK government, via provider Y, verified
+            that the user is 18.4 years old
+          </li>
+        </ol>
+      </P>
+      <P>
+        Note how during the exchange no names, addresses, documents, etc...
+        where send to the website. My solution is by far no means an RFC, I
+        think that a solution following these guidelines is easy to come up with
+        and suitably secure.
+      </P>
+      <H3>An Existing Solution - YOTI</H3>
+      <H2>Final Words</H2>
+      <P>
+        Overall I think that the legislation is a good idea, and can be
+        implemented in a privacy respecting manor if regulators take privacy
+        seriously. At standard I do not believe that regulators want to force
+        the use of third platform age verification platforms, and this is very
+        disappointing.
+      </P>
+      <P>
+        I would also like to remind any viewers to remain very vigilant about
+        phising attacks and scams, especially in the context of identity
+        verification. I would strongly recommend against uploading identity
+        documents to websites that you cannot trust, and ideally at all.
+      </P>
+      <P>
+        Remember to stay safe on the internet!
+      </P>
       <H2>Use of AI Disclaimer</H2>
       <P>
         No AI was used to generate text that appears on this website, however
