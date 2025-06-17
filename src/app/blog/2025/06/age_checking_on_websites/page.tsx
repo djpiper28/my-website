@@ -25,7 +25,7 @@ export default function Page() {
         taste in smut to blackmail or berate people, or they could commit
         identity theft.
       </P>
-      <H2>Risks of A Privacy Poor Age Verification Process</H2>
+      <H2>Risks of A Poor Privacy Age Verification Process</H2>
       <P>
         I think that there are four main threats of a poorly implemented age
         verification process: fraud, attacks and othe real world harm, tracking,
@@ -40,11 +40,11 @@ export default function Page() {
       <H3>Attacks And Other Real World Harm</H3>
       <P>
         I have made this category deliberately vague, it is meant to refer to
-        blackmail, charcter assassinations, and other such things that could
+        blackmail, character assassinations, and other such things that could
         occur if attackers had knowledge of content that you were watching. This
         data could very well become public (or sold on the dark web) if there
         was a cyber attack that stole it. Things that I would compare this
-        threat to is wire tapping, (think of Prince Harry and the tabloids,{" "}
+        threat to are wiretapping: (think of Prince Harry and the tabloids,{" "}
         <Link href="https://www.bbc.co.uk/news/uk-67122719">
           See BBC reporting
         </Link>
