@@ -53,8 +53,9 @@ export default function Page() {
           Daily Mail reporting
         </Link>
         ). A larger threat is to those who are from sexually conservative
-        backgrounds or countries, such as certain Muslims where this data could
-        lead to imprisonment, and all of the horrors that would follow.
+        backgrounds or countries, such as certain Muslims coumminties where this
+        data could lead to imprisonment, and all of the horrors that would
+        follow.
       </P>
       <H3>Tracking</H3>
       <P>
