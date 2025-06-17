@@ -75,7 +75,7 @@ export default function Page() {
       </P>
       <P>
         Another risk of users using these bad websites is that they may be
-        likely for phising and scamming, perhaps by signing up to these sites.
+        likely for phishing and scamming, perhaps by signing up to these sites.
       </P>
       <P>
         Usage of these sites is likely avoidable if search engine and social
@@ -87,7 +87,7 @@ export default function Page() {
         Another cause of concern around the regulation is how easy it will be to
         bypass, ways to do this include VPNs, and deep faked cameras. On the VPN
         front, whilst this may seem like a real issue (see Proton VPN
-        subscription increases after the ban in France{" "}
+        subscription increases after the ban in France -{" "}
         <Link href="https://mashable.com/article/proton-vpn-pornhub-france">
           Mashable reporting
         </Link>
@@ -121,7 +121,7 @@ export default function Page() {
         being stolen if they were to retain them. I will go into detail later
         about what <Link href="#solution">an ideal solution would like</Link>.
       </P>
-      <H3>Potential For Phising Attacks</H3>
+      <H3>Potential For Phishing Attacks</H3>
       <P>
         This is, in my opinion, the largest threat of poorly implemented age
         checks. I can see the attack working as follows:
@@ -147,9 +147,9 @@ export default function Page() {
         finanical harm, and potentially even physical harm.
       </P>
       <P>
-        Like most phising attacks this can be avoided by good policies (on the
+        Like most phishing attacks this can be avoided by good policies (on the
         identity providers), and education. It would be wise for regulators to
-        make adverts about the potential for phising, if this is done then the
+        make adverts about the potential for phishing, if this is done then the
         risk would be low.
       </P>
       <H2 id="solution">An Ideal Age Verification Solution</H2>
@@ -207,7 +207,7 @@ export default function Page() {
       </P>
       <P>
         I would also like to remind any viewers to remain very vigilant about
-        phising attacks and scams, especially in the context of identity
+        phishing attacks and scams, especially in the context of identity
         verification. I would strongly recommend against uploading identity
         documents to websites that you cannot trust, and ideally at all.
       </P>
