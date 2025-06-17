@@ -103,10 +103,10 @@ export default function Page() {
       </P>
       <P>
         Overall I do not think that there is much of a risk of children and
-        teenagers bypassing age restrictions to access that they should not be
-        allowed to. I would also add that illegal online gambling is likely to
-        have a similar risk profile, and the age verification there is a prime
-        example of great legislation.
+        teenagers bypassing age restrictions to access material they should not
+        be allowed to. I would also add that illegal online gambling is likely
+        to have a similar risk profile, and the age verification there is a
+        prime example of great legislation.
       </P>
       <H2>Security Issues</H2>
       <H3>Effects of A Data Breach</H3>
