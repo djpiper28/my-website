@@ -21,7 +21,7 @@ export default function Page() {
         sending your ID, or face scans to a provider. One major concern is that
         this identifiable information will be exploited by the website that you
         visit, this threat is mainly present on porn websites - where the threat
-        is most menacing. For instance a bad actor could your preffered taste in
+        is most menacing. For instance a bad actor could your preferred taste in
         smut to blackmail or berate people, or they could commit identity theft.
       </P>
       <H2>Risks of A Privacy Poor Age Verification Process</H2>
@@ -52,7 +52,7 @@ export default function Page() {
           Daily Mail reporting
         </Link>
         ). A larger threat is to those who are from sexually conservative
-        backgrounds or countries, such as certain Muslims coumminties where this
+        backgrounds or countries, such as certain Muslims communities where this
         data could lead to imprisonment, and all of the horrors that would
         follow.
       </P>
@@ -119,7 +119,8 @@ export default function Page() {
         way to not share identitiable documents then the risk can be entirely
         mitigated. However the ID provider would still have a risk of documents
         being stolen if they were to retain them. I will go into detail later
-        about what <Link href="#solution">an ideal solution would like</Link>.
+        about what{" "}
+        <Link href="#solution">an ideal solution would look like</Link>.
       </P>
       <H3>Potential For Phishing Attacks</H3>
       <P>
@@ -201,7 +202,7 @@ export default function Page() {
       <P>
         Overall I think that the legislation is a good idea, and can be
         implemented in a privacy respecting manner if regulators take privacy
-        seriously. At standard I do not believe that regulators want to force
+        seriously. As a standard I do not believe that regulators want to force
         the use of third platform age verification platforms, and this is very
         disappointing.
       </P>
