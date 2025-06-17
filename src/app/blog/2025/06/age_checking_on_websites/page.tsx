@@ -113,7 +113,7 @@ export default function Page() {
       <P>
         As I have already stated any data that is stolen can cause a lot of harm
         to the victims. Given that most porn sites use pre-historic technology,
-        i.e: PornHub with PHP, I would not trust them with my ID, hence I
+        e.g, PornHub with PHP, I would not trust them with my ID, hence I
         support PornHub&apos;s call for the data to be handled by trusted
         identity providers. A good way to avoid any security attacks is not to
         store the data. If the age verification were transient and setup in a
