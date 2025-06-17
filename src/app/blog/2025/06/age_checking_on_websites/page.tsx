@@ -21,8 +21,9 @@ export default function Page() {
         sending your ID, or face scans to a provider. One major concern is that
         this identifiable information will be exploited by the website that you
         visit, this threat is mainly present on porn websites - where the threat
-        is most menacing. For instance a bad actor could your preferred taste in
-        smut to blackmail or berate people, or they could commit identity theft.
+        is most menacing. For instance a bad actor could use your preferred
+        taste in smut to blackmail or berate people, or they could commit
+        identity theft.
       </P>
       <H2>Risks of A Privacy Poor Age Verification Process</H2>
       <P>
@@ -115,7 +116,7 @@ export default function Page() {
         i.e: PornHub with PHP, I would not trust them with my ID, hence I
         support PornHub&apos;s call for the data to be handled by trusted
         identity providers. A good way to avoid any security attacks is not to
-        store the data. If the age verification where transient and setup in a
+        store the data. If the age verification were transient and setup in a
         way to not share identifiable documents then the risk can be entirely
         mitigated. However the ID provider would still have a risk of documents
         being stolen if they were to retain them. I will go into detail later
@@ -137,15 +138,15 @@ export default function Page() {
           </li>
           <li>The user then submits their ID to a malicious website</li>
           <li>
-            They then get access to the their content and are not aware they
-            have been scammed
+            They then get access to their content and are not aware they have
+            been scammed
           </li>
         </ol>
       </P>
       <P>
         The repercussions of this type are attack would be very severe, ranging
-        from blackmail, to fraud. It is likely that such an attack will cause
-        financial harm, and potentially even physical harm.
+        from blackmail to fraud. It is likely that such an attack will cause
+        financial harm and potentially even physical harm.
       </P>
       <P>
         Like most phishing attacks this can be avoided by good policies (on the
