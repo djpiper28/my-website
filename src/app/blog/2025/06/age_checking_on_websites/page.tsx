@@ -182,10 +182,10 @@ export default function Page() {
         </ol>
       </P>
       <P>
-        Note how during the exchange no names, addresses, documents, etc...
-        where send to the website. My solution is by far no means an RFC, I
-        think that a solution following these guidelines is easy to come up with
-        and suitably secure.
+        Note how during the exchange no names, addresses, documents, etc... were
+        send to the website. My solution is by far no means an RFC, I think that
+        a solution following these guidelines is easy to come up with and
+        suitably secure.
       </P>
       <H3>An Existing Solution - YOTI</H3>
       <P>
