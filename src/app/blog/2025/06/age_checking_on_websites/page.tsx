@@ -165,14 +165,14 @@ export default function Page() {
       <P>
         I would propose that a user flow is as follows:
         <ol className="list-decimal">
-          <li>The user access an age restricted website</li>
+          <li>The user accesses an age restricted website</li>
           <li>
             The website asks for verification, by opening an app, or showing a
             QR code
           </li>
           <li>
             The user follows the link/code and opens their app, a cryptographic
-            nonce is transfered to the app
+            nonce is transferred to the app
           </li>
           <li>The app asks the user to copy a code into the application</li>
           <li>The user copies the code into the age restrictions website</li>
@@ -204,7 +204,7 @@ export default function Page() {
         Overall I think that the legislation is a good idea, and can be
         implemented in a privacy respecting manner if regulators take privacy
         seriously. As a standard I do not believe that regulators want to force
-        the use of third platform age verification platforms, and this is very
+        the use of third platform age verification platforms. This is very
         disappointing.
       </P>
       <P>
@@ -216,13 +216,14 @@ export default function Page() {
       <P>Remember to stay safe on the internet!</P>
       <H2>Use of AI Disclaimer</H2>
       <P>
-        No AI was used to generate text that appears on this website, however
+        No AI was used to generate text that appears on this website; however,
         Google Gemini was used to help read the legalese that is the act in
         question.
       </P>
       <P>
         This content cannot be used to train AI, putting this article into some
-        AI providers will use it as training material so I would avoid doing so.
+        AI providers will use it as training material, so I would avoid doing
+        so.
       </P>
     </>
   );
