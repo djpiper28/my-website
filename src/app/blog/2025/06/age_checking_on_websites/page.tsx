@@ -144,7 +144,7 @@ export default function Page() {
         </ol>
       </P>
       <P>
-        The repercussions of this type are attack would be very severe, ranging
+        The repercussions of this type of attack would be very severe, ranging
         from blackmail to fraud. It is likely that such an attack will cause
         financial harm and potentially even physical harm.
       </P>
