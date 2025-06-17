@@ -98,8 +98,8 @@ export default function Page() {
         is something that is most likely out of reach of children and teenagers
         so not something to worry about. What is alarming though is that people
         who are old enough to legally watch porn are not educated enough to use
-        VPNs, fake cameras, or similar bypasses - therefore they their data will
-        be at risk.
+        VPNs, fake cameras, or similar bypasses - therefore their data will be
+        at risk.
       </P>
       <P>
         Overall I do not think that there is much of a risk of children and
