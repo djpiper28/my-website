@@ -79,8 +79,8 @@ export default function Page() {
       </P>
       <P>
         Usage of these sites is likely avoidable if search engine and social
-        media companies companies take the actions that they should be required
-        to by deleting the content.
+        media companies take the actions that they should be required to by
+        deleting the content.
       </P>
       <H2>Bypassing Age Verification</H2>
       <P>
@@ -142,9 +142,9 @@ export default function Page() {
         </ol>
       </P>
       <P>
-        The reprecussions of this type are attack would be very severe, ranging
+        The repercussions of this type are attack would be very severe, ranging
         from blackmail, to fraud. It is likely that such an attack will cause
-        finanical harm, and potentially even physical harm.
+        financial harm, and potentially even physical harm.
       </P>
       <P>
         Like most phishing attacks this can be avoided by good policies (on the
@@ -200,7 +200,7 @@ export default function Page() {
       <H2>Final Words</H2>
       <P>
         Overall I think that the legislation is a good idea, and can be
-        implemented in a privacy respecting manor if regulators take privacy
+        implemented in a privacy respecting manner if regulators take privacy
         seriously. At standard I do not believe that regulators want to force
         the use of third platform age verification platforms, and this is very
         disappointing.
