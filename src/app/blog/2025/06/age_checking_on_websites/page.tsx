@@ -187,6 +187,16 @@ export default function Page() {
         and suitably secure.
       </P>
       <H3>An Existing Solution - YOTI</H3>
+      <P>
+        YOTI is an existing identity and age verification technique that has
+        been used on fruit machines, gambling websites, etc... The application
+        works by users uploading proof of identity to the application where it
+        is stored centrally, users then scan a QR code and agree to send a
+        subset of data to the service they wish to use. The amount of data
+        depends on how the third party sets up their service. I think that this
+        is a good model for identity verification and similar enough to my
+        proposed solution for me to support for wider roll-out.
+      </P>
       <H2>Final Words</H2>
       <P>
         Overall I think that the legislation is a good idea, and can be
@@ -201,9 +211,7 @@ export default function Page() {
         verification. I would strongly recommend against uploading identity
         documents to websites that you cannot trust, and ideally at all.
       </P>
-      <P>
-        Remember to stay safe on the internet!
-      </P>
+      <P>Remember to stay safe on the internet!</P>
       <H2>Use of AI Disclaimer</H2>
       <P>
         No AI was used to generate text that appears on this website, however
