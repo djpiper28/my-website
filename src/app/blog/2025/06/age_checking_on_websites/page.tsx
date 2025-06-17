@@ -86,14 +86,14 @@ export default function Page() {
       <H2>Bypassing Age Verification</H2>
       <P>
         Another cause of concern around the regulation is how easy it will be to
-        bypass, ways to do this include VPNs, and deep faked cameras. On the VPN
+        bypass. Ways to do this include VPNs, and deep faked cameras. On the VPN
         front, whilst this may seem like a real issue (see Proton VPN
         subscription increases after the ban in France -{" "}
         <Link href="https://mashable.com/article/proton-vpn-pornhub-france">
           Mashable reporting
         </Link>
         ), it is important to note that children and teenagers do not typically
-        have enough money to get a VPN to access this content, furthermore most
+        have enough money to get a VPN to access this content, furthermore, most
         likely do not know what a VPN is. Like VPNs fake cameras for fake faces
         is something that is most likely out of reach of children and teenagers
         so not something to worry about. What is alarming though is that people
