@@ -7,6 +7,7 @@ export default function Page() {
   return (
     <>
       <H1>Blog Posts</H1>
+      {/* TODO: Add titles for each year */}
       {allBlogs.map((x) => (
         <div className="flex flex-row gap-3 flex-wrap items-center" key={x.url}>
           <P>{x.release.toLocaleDateString()} -</P>
