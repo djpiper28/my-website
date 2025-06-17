@@ -17,13 +17,12 @@ export default function Page() {
         is undeniable that the need for this legislation is very real as social
         media has led to the unfortunate suicide of children and teenagers from
         the exposure to harmful content. One part of this that has been worrying
-        privacy advocates is about age verification, particularily if it
-        involves sending your ID, or face scans to a provider. One majour
-        concern is that this identifiable information will be exploited by the
-        website that you visit, this threat is mainly present on porn websites -
-        where the threat is most menacing. For instance a bad actor could your
-        ones preffered taste in smut to blackmail or berate people, or they
-        could commit identity theft.
+        privacy advocates is about age verification, particularly if it involves
+        sending your ID, or face scans to a provider. One major concern is that
+        this identifiable information will be exploited by the website that you
+        visit, this threat is mainly present on porn websites - where the threat
+        is most menacing. For instance a bad actor could your preffered taste in
+        smut to blackmail or berate people, or they could commit identity theft.
       </P>
       <H2>Risks of A Privacy Poor Age Verification Process</H2>
       <P>
@@ -33,14 +32,14 @@ export default function Page() {
       </P>
       <H3>Fraud</H3>
       <P>
-        This is a fairly simple threat to understand. A dodgey website asks
-        users to scan their drivers licence or other type of document to access
-        its content, this data is then used to open bank accounts or similar.
+        This is a fairly simple threat to understand. A dodgy website asks users
+        to scan their drivers licence or other type of document to access its
+        content, this data is then used to open bank accounts or similar.
       </P>
       <H3>Attacks And Other Real World Harm</H3>
       <P>
         I have made this category deliberately vague, it is meant to refer to
-        blackmail, chracter assassinations, and other such things that could
+        blackmail, charcter assassinations, and other such things that could
         occur if attackers had knowledge of content that you were watching. This
         data could very well become public (or sold on the dark web) if there
         was a cyber attack that stole it. Things that I would compare this
