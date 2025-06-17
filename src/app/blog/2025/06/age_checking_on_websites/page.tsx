@@ -125,22 +125,22 @@ export default function Page() {
       <P>
         This is, in my opinion, the largest threat of poorly implemented age
         checks. I can see the attack working as follows:
+        <ol className="list-decimal">
+          <li>A user goes to a malicious site</li>
+          <li>
+            They are informed that they need to verify their age to access the
+            content
+          </li>
+          <li>
+            The user is taken to a page that looks official asks for valid ID
+          </li>
+          <li>The user then submits their ID to a malicious website</li>
+          <li>
+            They then get access to the their content and are not aware they
+            have been scammed
+          </li>
+        </ol>
       </P>
-      <ol className="list-decimal">
-        <li>A user goes to a malicious site</li>
-        <li>
-          They are informed that they need to verify their age to access the
-          content
-        </li>
-        <li>
-          The user is taken to a page that looks official asks for valid ID
-        </li>
-        <li>The user then submits their ID to a malicious website</li>
-        <li>
-          They then get access to the their content and are not aware they have
-          been scammed
-        </li>
-      </ol>
       <P>
         The reprecussions of this type are attack would be very severe, ranging
         from blackmail, to fraud. It is likely that such an attack will cause
