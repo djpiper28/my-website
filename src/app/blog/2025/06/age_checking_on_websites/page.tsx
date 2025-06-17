@@ -58,11 +58,11 @@ export default function Page() {
       </P>
       <H3>Tracking</H3>
       <P>
-        Age verification could very much assist in connecting peoples activies
-        across different sites and allow states (and companies) to track users
-        with far greater granularity. One of the fears is that this will connect
-        cookies in private browsing tabs back to the identity of the main
-        browser.
+        Age verification could very much assist in correlating people&apos;s
+        activies across different sites and allow states (and companies) to
+        track users with far greater granularity. One of the fears is that this
+        will connect cookies in private browsing tabs back to the identity of
+        the main browser.
       </P>
       <H3>Sending Users To A Darker Place</H3>
       <P>
