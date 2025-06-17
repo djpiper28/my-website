@@ -52,14 +52,14 @@ export default function Page() {
           Daily Mail reporting
         </Link>
         ). A larger threat is to those who are from sexually conservative
-        backgrounds or countries, such as certain Muslims communities where this
+        backgrounds or countries, such as certain Muslim communities where this
         data could lead to imprisonment, and all of the horrors that would
         follow.
       </P>
       <H3>Tracking</H3>
       <P>
         Age verification could very much assist in correlating people&apos;s
-        activies across different sites and allow states (and companies) to
+        activities across different sites and allow states (and companies) to
         track users with far greater granularity. One of the fears is that this
         will connect cookies in private browsing tabs back to the identity of
         the main browser.
@@ -105,7 +105,7 @@ export default function Page() {
         teenagers bypassing age restrictions to access that they should not be
         allowed to. I would also add that illegal online gambling is likely to
         have a similar risk profile, and the age verification there is a prime
-        of example of great legislation.
+        example of great legislation.
       </P>
       <H2>Security Issues</H2>
       <H3>Effects of A Data Breach</H3>
@@ -116,7 +116,7 @@ export default function Page() {
         support PornHub&apos;s call for the data to be handled by trusted
         identity providers. A good way to avoid any security attacks is not to
         store the data. If the age verification where transient and setup in a
-        way to not share identitiable documents then the risk can be entirely
+        way to not share identifiable documents then the risk can be entirely
         mitigated. However the ID provider would still have a risk of documents
         being stolen if they were to retain them. I will go into detail later
         about what{" "}
