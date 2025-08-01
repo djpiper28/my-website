@@ -1,8 +1,8 @@
 import { BlogMeta } from "@/app/blog/meta";
 
 export const meta: BlogMeta = {
-  title: "Leftist Manifestos",
+  title: "A Unified Leftist Manifesto",
   description:
-    "A discussion about what a unified left wing manifesto could look like",
+    "A left wing Manifesto that looks to change how things work, and fix what is broken.",
   release: new Date(2025, 7, 1),
 };

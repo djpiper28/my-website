@@ -17,8 +17,10 @@ export default function Home() {
           <P>
             Hello World! I am Danny Piper, a Software Engineer working at
             Motorola Solutions, with an interest in solving complex problems
-            with software. I also dabble with hardware, radios, and any other
-            device that I can hack.
+            with software. I also dabble with cameras, radios, and any other
+            devices that I can hack. Furthermore, I have a{" "}
+            <Link href="/blog">blog</Link> that is political that some might
+            find interesting.
           </P>
           <P>
             I graduated with a diploma of higher education from Royal Holloway
