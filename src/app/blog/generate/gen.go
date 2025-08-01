@@ -92,10 +92,14 @@ func main() {
 
 	slices.SortFunc(metaDatas, func(i, j FileData) int {
 		if i.Year < j.Year {
+			return 1
+		} else if i.Year > j.Year {
 			return -1
 		}
 
 		if i.Month < j.Month {
+			return 1
+		} else if i.Month > j.Month {
 			return -1
 		}
 
@@ -108,7 +112,7 @@ import { type BlogMeta } from '../meta';
 `
 
 	for _, metaData := range metaDatas {
-		output += fmt.Sprintf("import { meta as %s } from '%s';", metaData.Alias, metaData.MetaImportPath)
+		output += fmt.Sprintf("import { meta as %s } from '%s';\n", metaData.Alias, metaData.MetaImportPath)
 	}
 
 	output += `
