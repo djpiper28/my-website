@@ -15,22 +15,23 @@ export default function Page() {
       </H2>
       <P>
         This is one of the most idiotic things an MP has ever said. VPNs keep
-        people safe by keeping their traffic encrypted and helps to mask your
-        identity is used correctly. Jimmy Saville on the other hand was a
-        prolific paedophile, who abused children physically. Like Saville Most
-        people want their private life public. It is not because they have
-        paedophillia to hide, it is because they like to keep things private.
-        Also the &quot;nothing to hide nothing to fear&quot; expression is
-        bollocks.
+        people safe by keeping their traffic encrypted and help to mask your
+        identity if they are used correctly. Jimmy Saville on the other hand was
+        a prolific paedophile, who abused children. Like Saville Most people
+        want their private life public, it is not because they have paedophilia
+        to hide, it is because they like to keep private life private. Also the
+        &quot;nothing to hide nothing to fear&quot; expression is bollocks.
+        Conflating one of the worst sex offenders in the world to an innocent
+        user of the internet is dishonest at worst.
       </P>
       <P>
-        It is quite important for people to realise that realise that most VPN
-        users are not using them for cyber crime, and cyber criminals don&apos;t
-        care about the law and any potential bans - they will bypass whatever
-        you try. They will use Tor, bullet proof hosting, SSH tunnels on random
-        servers, etc... These tools are vital for journalists, dissodents (not
-        just of foreign states), targets for cyber crime, and those who want to
-        use services from their own country.
+        It is quite important for people to realise that most VPN users are not
+        using them for cyber crime, and cyber criminals don&apos;t care about
+        the law and any potential bans - they will bypass whatever you try. They
+        will use Tor, bullet proof hosting, SSH tunnels on random servers,
+        etc... These tools are vital for journalists, dissodents (not just of
+        foreign states), targets for cyber crime, and those who want to use
+        services from their own country.
       </P>
       <P>
         Overall I think that threating VPNs and encryption for the sake of
