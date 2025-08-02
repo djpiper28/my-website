@@ -19,7 +19,7 @@ export default function RootLayout({ children }: Readonly<Props>) {
     <html lang="en">
       <body className="flex flex-col justify-between min-h-screen">
         <Navbar />
-        <div className="flex-1 md:px-10 md:py-10 p-2">
+        <div className="flex-1 md:px-10 md:py-10 lg:px-14 xl:px-20 2xl:px-40 p-2">
           <div className="flex flex-col gap-2">{children}</div>
         </div>
         <Footer />
