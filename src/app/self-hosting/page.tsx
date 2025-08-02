@@ -22,9 +22,9 @@ export default function Page() {
         database, Grafana, Jenkins, Prometheus, and Nginx ingress server.
       </P>
       <DiagramBox>
-        <img
+        <Image
           src="/self-hosting/self-hosting.drawio.svg"
-          alt="Diagram of the interpreter"
+          alt="Self hosting diagram of the setup of the network"
         />
       </DiagramBox>
       <P>

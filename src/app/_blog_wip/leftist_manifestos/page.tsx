@@ -1,7 +1,5 @@
 import { H1 } from "@/components/typrography/H1";
 import { H2 } from "@/components/typrography/H2";
-import { H3 } from "@/components/typrography/H3";
-import { Link } from "@/components/typrography/Link";
 import { P } from "@/components/typrography/P";
 import { meta } from "./meta";
 
