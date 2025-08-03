@@ -28,32 +28,33 @@ export default function Page() {
         It is quite important for people to realise that most VPN users are not
         using them for cyber crime, and cyber criminals don&apos;t care about
         the law and any potential bans - they will bypass whatever you try. They
-        will use Tor, bullet proof hosting, SSH tunnels on random servers,
-        etc... These tools are vital for journalists, dissodents (not just of
-        foreign states), targets for cyber crime, and those who want to use
-        services from their own country.
+        will use Tor, bullet proof hosting, SSH tunnels on random servers, and
+        other techniques to dodge any ban. VPNs are vital tools for journalists,
+        dissidents (not just of foreign states), potential targets for cyber
+        crime, those fearful of being stalked and those who want to use services
+        from their home country.
       </P>
       <P>
         Overall I think that threating VPNs and encryption for the sake of
         children is a suicidal policy that weakens the security position of a
         country to allow a few paranoid politicians to convince themselves that
-        the country won&apos;t rebel against them. You know what it makes them
+        the country won&apos;t rebel against them. You know what - it makes them
         more likely.
       </P>
       <H2>Apple vs The UK Government</H2>
       <P>
         Recently{" "}
         <Link href="https://www.bbc.co.uk/news/articles/c20g288yldko">
-          Apple has been suring the UK Government
+          Apple has been sueing the UK Government
         </Link>{" "}
-        over rights to user&apos;s encrypted data. This is alarming for a lot of
-        reasons, namely they want to add a backdoor to read user data. Any, and
-        all backdoors can be used by potential attackers, such as the Russian,
-        Chinese, Iranians, and North Korean&apos;s that our Government seems so
-        scared of. Not to mention it takes one jaded employee who added a back
-        door and suddenly the data is as secure as a bike tied to a fence by a
-        canal (that is then stolen by a set of blokes and the police cannot be
-        arsed to do anything about it).
+        over rights to access user&apos;s encrypted data. This is alarming for a
+        lot of reasons, namely they want to add a backdoor to read user data.
+        Any, and all backdoors can be used by potential attackers, such as the
+        Russian, Chinese, Iranians, and North Korean&apos;s that our Government
+        seems so scared of. Not to mention it takes one jaded employee who added
+        a back door and suddenly the data is as secure as a bike tied to a fence
+        by a canal (that is then stolen by a set of blokes and the police cannot
+        be arsed to do anything about it).
       </P>
       <P>
         In a more serious tone, threats against encryption will make cyber
@@ -61,8 +62,13 @@ export default function Page() {
         data is identity documents, and credit card information to verify
         people&apos;s ages. This will lead to more identity fraud. Identity
         fraud being the chosen charge for people who submit fake data to age
-        verification checks. Upload a Lego Land driving license and get a fraud
-        conviction (hopefully this remains a sarcasm).
+        verification checks. Upload a Lego Land driving licence and get a fraud
+        conviction (hopefully this last point will remain a sarcasm).
+      </P>
+      <P>
+        It is well known that data breaches are common, for example the Tea
+        application had user identification data stolen due to the use of the
+        comically bad Firebase, that will without doubt lead to terrible harm.
       </P>
       <H2>Conclusion</H2>
       <P>
