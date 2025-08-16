@@ -88,7 +88,10 @@ export default function Page() {
       </P>
       <P>
         There is a lot of testing setup for the project, about 80% coverage,
-        with unit tests, system tests, memory tests, and integration tests.
+        with unit tests, system tests, memory tests, and integration tests. I am
+        currently working on benchmarking the application with e2e benchmarks of
+        queries, when I have a good benchmark suite in place I will try to do
+        some fun optimisations.
       </P>
     </>
   );
