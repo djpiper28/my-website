@@ -137,6 +137,27 @@ export default function Page() {
         people will involve them being involed in the consultation process
         before the bill is taken to Parliament.
       </P>
+      <H2>The Petition</H2>
+      <P>
+        I, like 774,330 others at the time of writing, oppose the concept of
+        Digital ID as I see it as state overreach, that will lead to more mass
+        surveillance. I am also deeply concerned about it blocking people access
+        to public services, and find the idea of it being mandatory worrying. If
+        you agree then you can sign the{" "}
+        <Link href="https://petition.parliament.uk/signatures/161080867">
+          petition
+        </Link>{" "}
+        on The Parliament petitions website.
+      </P>
+      <P>
+        I will also add that Tony Blair wants to get his blood ridden finders
+        involved in{" "}
+        <Link href="https://www.bbc.co.uk/news/articles/c3drmk95xlzo">
+          Gaza
+        </Link>
+        , and that politics have taken a nasty turn lately, with everything
+        become far more toxic, and divided.
+      </P>
     </>
   );
 }
