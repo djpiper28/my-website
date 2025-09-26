@@ -144,7 +144,7 @@ export default function Page() {
         surveillance. I am also deeply concerned about it blocking people access
         to public services, and find the idea of it being mandatory worrying. If
         you agree then you can sign the{" "}
-        <Link href="https://petition.parliament.uk/signatures/161080867">
+        <Link href="https://petition.parliament.uk/petitions/730194">
           petition
         </Link>{" "}
         on The Parliament petitions website.
