@@ -52,7 +52,7 @@ export default function Page() {
       <P>
         Digital ID will be a super app that does everything according to Sir
         Tony &quot;Weapons of Mass Destruction In Iraq&quot; Blair, which sounds
-        quite similar to WeChat which is China&apos;s state adjacent sensorship
+        quite similar to WeChat which is China&apos;s state adjacent censorship
         and surveillance app. The think tank openly says &quot;If we used the
         potential of facial recognition, data and DNA, we would cut crime rates
         by not small but game-changing margins&quot;, because of this it is
@@ -65,7 +65,7 @@ export default function Page() {
         system that is used everywhere will allow the government to track any
         citizen as they make any interaction with the state. It is likely that
         it will become the prefered method of ID for bars, nightclubs, rental,
-        etc... The state will have unfettered access to every faceit of your
+        etc... The state will have unfettered access to every facet of your
         life. Who you rent with, who you work for, your medical data (see{" "}
         <Link href="https://www.bmj.com/content/386/bmj.q1712">
           Palantir&apos;s NHS contract
@@ -99,7 +99,7 @@ export default function Page() {
       <H2>Data Breaches</H2>
       <P>
         Any central database is the go to target for a state actor. If Digital
-        IDs database was every targetted then all of the services that rely on
+        IDs database was ever targeted then all of the services that rely on
         it will be affected causing billions of economic damage. Given the UK
         Government&apos;s track record of keeping data unsecure (see{" "}
         <Link href="https://www.bbc.co.uk/news/articles/c79qyl907lxo">
@@ -115,7 +115,7 @@ export default function Page() {
         On the plus side, it may be that Digital ID can be used to verify your
         age on websites (to appease The Online Safety Act) which would help to
         keep your data more secure by not sending data to American companies
-        with rather lack-luster privacy policies. Although you may not want to
+        with rather lacklustre privacy policies. Although you may not want to
         do use a Digital ID to watch pornographic material as it will let the
         government know you like to watch filth.
       </P>
@@ -134,7 +134,7 @@ export default function Page() {
       <P>
         The state is obliged to consider disabled people with this policy due to
         The UK Equality Act 2010, although making a good solution for these
-        people will involve them being involed in the consultation process
+        people will involve them being involved in the consultation process
         before the bill is taken to Parliament.
       </P>
       <H2>The Petition</H2>
@@ -150,13 +150,13 @@ export default function Page() {
         on The Parliament petitions website.
       </P>
       <P>
-        I will also add that Tony Blair wants to get his blood ridden finders
+        I will also add that Tony Blair wants to get his blood ridden fingers
         involved in{" "}
         <Link href="https://www.bbc.co.uk/news/articles/c3drmk95xlzo">
           Gaza
         </Link>
         , and that politics have taken a nasty turn lately, with everything
-        become far more toxic, and divided.
+        becoming far more toxic, and divided.
       </P>
     </>
   );

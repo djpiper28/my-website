@@ -28,8 +28,8 @@ export default function Page() {
       <H2>Risks of A Poor Privacy Age Verification Process</H2>
       <P>
         I think that there are four main threats of a poorly implemented age
-        verification process: fraud, attacks and othe real world harm, tracking,
-        and sending users to a darker place.
+        verification process: fraud, attacks and other real world harm,
+        tracking, and sending users to a darker place.
       </P>
       <H3>Fraud</H3>
       <P>
@@ -184,7 +184,7 @@ export default function Page() {
       </P>
       <P>
         Note how during the exchange no names, addresses, documents, etc... were
-        send to the website. My solution is by far no means an RFC, I think that
+        sent to the website. My solution is by far no means an RFC, I think that
         a solution following these guidelines is easy to come up with and
         suitably secure.
       </P>
