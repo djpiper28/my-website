@@ -24,13 +24,12 @@ export default function Page() {
             ) : (
               <></>
             )}
-            <div
-              className="flex flex-row gap-3 flex-wrap items-center"
-              key={x.url}
-            >
-              <P>{x.release.toLocaleDateString()} -</P>
-              <Link href={x.url}>{x.title}</Link>
-              <P>- {x.description}</P>
+            <div className="flex flex-row gap-3" key={x.url}>
+              <P className="w-max">{x.release.toLocaleDateString()}</P>
+              <Link className="w-max" href={x.url}>
+                {x.title}
+              </Link>
+              <P className="text-wrap">{x.description}</P>
             </div>
           </>
         );
