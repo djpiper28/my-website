@@ -15,12 +15,10 @@ export default function Home() {
         <div>
           <H1>Hello World!</H1>
           <P>
-            Hello World! I am Danny Piper, a Software Engineer working at
-            Motorola Solutions, with an interest in solving complex problems
-            with software. I also dabble with cameras, radios, and any other
-            devices that I can hack. Furthermore, I have a{" "}
-            <Link href="/blog">blog</Link> that is political that some might
-            find interesting.
+            I am Danny Piper, a Software Engineer working at Motorola Solutions,
+            with an interest in solving complex problems. When I am not working,
+            I enjoy photography, and aspire to become a professional
+            photographer some day.
           </P>
           <P>
             I graduated with a diploma of higher education from Royal Holloway
@@ -102,7 +100,7 @@ export default function Home() {
                   <H3>Royal Hackaway v5-v8</H3>
                 </Link>
                 <P>
-                  A student led hacakathon at the univeristy I attended - Royal
+                  A student led hacakathon at the university I attended - Royal
                   Holloway. I helped organise v5 and v6 directly, and helped at
                   v7 and v8. During v5 and v6 I wokred mostly on the
                   live-streaming aspect of the hybrid event which was moderately
@@ -166,12 +164,16 @@ export default function Home() {
           <P>Photography</P>
           <P>
             I have been dabbling with astro-photography lately, and I have a
-            somewhat jury-rigged setup at the moment. Howver, as you would
-            expect for a Brit, I have had nothing but clouds and rain when I
+            somewhat &quot;janky&quot; setup at the moment. Howver, as you would
+            expect in England, I have had nothing but clouds and rain when I
             have tried to use my equipment. I also enjoy macro photography, and
             landscape photography with churches, rivers, the odd goose. I have
-            been using GIMP and Siril for the post-processing of the images that
-            I have taken and found it very stress relieving.
+            been using Darktable, GIMP and Siril for the post-processing of the
+            images.
+          </P>
+          <P>
+            At work I have also done some event photography, which is going to
+            help me become more professional.
           </P>
           <Gallery
             images={[
