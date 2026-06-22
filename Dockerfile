@@ -6,7 +6,7 @@ RUN npm add -g pnpm
 FROM base AS deps
 WORKDIR /app
 
-COPY package.json pnpm-lock.yaml*  ./
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
 RUN pnpm i --frozen-lockfile
 
 FROM base AS builder
