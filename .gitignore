@@ -25,3 +25,5 @@ dist-ssr
 .next
 
 *storybook.log
+# Notes files that should not be committed
+idea.md

@@ -45,5 +45,12 @@
     "extends": [
       "plugin:storybook/recommended"
     ]
+  },
+  "pnpm": {
+    "allowedBuildScripts": [
+      "esbuild",
+      "msw",
+      "sharp"
+    ]
   }
 }
