@@ -1,7 +1,7 @@
 # syntax=docker.io/docker/dockerfile:1
 
 FROM node:22-alpine AS base
-RUN npm add -g pnpm
+RUN npm add -g pnpm@10
 
 FROM base AS deps
 WORKDIR /app
