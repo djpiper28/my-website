@@ -82,3 +82,5 @@ overrides:
   vitest@>=2.1.0 <4.1.11: ^4.1.11
   yaml@>=2.0.0 <2.8.3: ^2.8.3
   zod@<4.6.6: ^4.6.6
+  '@types/react': 19.3.0
+  '@types/react-dom': 19.3.0
