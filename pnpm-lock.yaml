@@ -90,8 +90,8 @@ importers:
   .:
     dependencies:
       next:
-        specifier: 16.4.1
-        version: 16.4.1(@babel/core@7.29.13(supports-color@7.2.0))(@types/node@20.17.25)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        specifier: 16.4.5
+        version: 16.4.5(@babel/core@7.29.13(supports-color@7.2.0))(@types/node@20.17.25)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       react:
         specifier: 19.2.8
         version: 19.2.8
@@ -119,7 +119,7 @@ importers:
         version: 8.6.19(@vitest/browser@3.2.7)(@vitest/runner@3.0.9)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(storybook@8.6.19(supports-color@7.2.0))(vitest@4.1.12)
       '@storybook/experimental-nextjs-vite':
         specifier: ^8.6.7
-        version: 8.6.7(@babel/core@7.29.13(supports-color@7.2.0))(@storybook/test@8.6.7(storybook@8.6.19(supports-color@7.2.0)))(@types/node@20.17.25)(next@16.4.1(@babel/core@7.29.13(supports-color@7.2.0))(@types/node@20.17.25)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(rollup@4.62.4)(storybook@8.6.19(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.8.2)(vite@6.4.5(@types/node@20.17.25)(jiti@1.21.7)(terser@5.39.0)(yaml@2.9.1))
+        version: 8.6.7(@babel/core@7.29.13(supports-color@7.2.0))(@storybook/test@8.6.7(storybook@8.6.19(supports-color@7.2.0)))(@types/node@20.17.25)(next@16.4.5(@babel/core@7.29.13(supports-color@7.2.0))(@types/node@20.17.25)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(rollup@4.62.4)(storybook@8.6.19(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.8.2)(vite@6.4.5(@types/node@20.17.25)(jiti@1.21.7)(terser@5.39.0)(yaml@2.9.1))
       '@storybook/react':
         specifier: ^8.6.7
         version: 8.6.7(@storybook/test@8.6.7(storybook@8.6.19(supports-color@7.2.0)))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(storybook@8.6.19(supports-color@7.2.0))(typescript@5.8.2)
@@ -154,10 +154,10 @@ importers:
         specifier: ^1.55.1
         version: 1.55.1
       postcss:
-        specifier: ^8.5.23
+        specifier: ^8.5.12
         version: 8.5.26
       storybook:
-        specifier: ^8.6.17
+        specifier: ^8.6.19
         version: 8.6.19(supports-color@7.2.0)
       tailwindcss:
         specifier: ^3.4.1
@@ -307,7 +307,7 @@ packages:
     resolution: {integrity: sha512-FDmn5Ry2DzQdik+eq2sp/kJMMT36Ewe7ONXUXM2Izd97c7r6R/QyGli8eyh/F0iyqVvbLveNYFyF0dBOJNwLqw==}
     engines: {node: '>=16.0.0', yarn: '>=1.22.18'}
     peerDependencies:
-      storybook: ^8.6.17
+      storybook: ^8.6.19
 
   '@emnapi/core@1.3.1':
     resolution: {integrity: sha512-pVGjBIt1Y6gg3EJN8jTcfpP/+uuRksIo055oE/OBkDNcjZqVbfkWCksG1Jp4yZnj3iKWyWX8fdG/j6UDYPbFog==}
@@ -809,60 +809,60 @@ packages:
   '@next/env@15.5.18':
     resolution: {integrity: sha512-hAV85Ckd9QR6RvH04MEKwsfLTksvFpO47j9xwtoIuvuPnlwecpSi+uZTtm8HirVbtlI2Fnz//xpcSTjFdyJk+g==}
 
-  '@next/env@16.4.1':
-    resolution: {integrity: sha512-5sUUrrSvs/2/2LnLoesybMGx12EtPB46fdZ6RhAw0XDGSPxU2LFyQBB7yuEiOFFJPKmBY6+q2jTr1/AMbnp0/g==}
+  '@next/env@16.4.5':
+    resolution: {integrity: sha512-JwSPwpdkZL5VMl2jA/q+JI8MZdweAL3xmw5/tb9y/TLtmS0YXZnmYDzSihwk8xTj1OL+WM53gTqaj96yuLp6Xw==}
 
   '@next/eslint-plugin-next@16.3.1':
     resolution: {integrity: sha512-B4SznlXwVpaLDa7Tbi6zLuueria2d/PmFDhXyDymPGrk2r1n/RMJmcn5FZq1L64k+Jsyte1lKvOr7lP9Xo80mQ==}
 
-  '@next/swc-darwin-arm64@16.4.1':
-    resolution: {integrity: sha512-U+hQ5Gj3fpzf4fveTIF3dpUFYhaSW8vHhdAnbiIomzXzg7boreYFgBqprepXFtW4sw+aTttiNmg0gew/iFNhbg==}
+  '@next/swc-darwin-arm64@16.4.5':
+    resolution: {integrity: sha512-W5TniBzWKASbNNwHZ/S/f1MxQUXU/LdjklVMWA0Ujbfl7SZnUzFls45hO0i/sF7Bx1jJBWp7WWmoQajXtX/O8A==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
 
-  '@next/swc-darwin-x64@16.4.1':
-    resolution: {integrity: sha512-/hqC3V1XLUjhMASf/WridKdO9FXoEgN3HBWmtKbj00MPgnltutfraWJ3bYTpCRIgEIpbjJyOVLpYgAhh/BkdcQ==}
+  '@next/swc-darwin-x64@16.4.5':
+    resolution: {integrity: sha512-uWq4qkHapBDS1oFltWS4YxTb9pLHAtLNcpbuK6SmRsebLYZqpBML/j/C0op+50JYGTpZgVL/DWNt/6oWlamrrw==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
 
-  '@next/swc-linux-arm64-gnu@16.4.1':
-    resolution: {integrity: sha512-GHzncHbcaS9g95kcvTNtKQW3aCLoR+xc3Jm7qrkpk1R+D2BjMHIPyvQGRPKCdMX95BsH/421jBUK06q9tEwzjw==}
+  '@next/swc-linux-arm64-gnu@16.4.5':
+    resolution: {integrity: sha512-FdRcyOx5u5P51mlAqLB9EXdd8jZO5fsdHtk4BAQSkqOywCsbTNN/rmw+jO7pnmjNdAtu2AG46NzbCL2FPDrrgw==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@next/swc-linux-arm64-musl@16.4.1':
-    resolution: {integrity: sha512-1SuJyDxW/PR9dHJat/ZRgcYLhuSZ+1psP4DlKb2tKIuXbjygqpLrJWRSq+onZQBv8LcmU67EIrmb6c3XTaJLjw==}
+  '@next/swc-linux-arm64-musl@16.4.5':
+    resolution: {integrity: sha512-cyvmmgtRXR8aGVT86wi9Py53IlfyCx7P2fZxuAXAoTummDnhKtUyjrMeXfapqp4qgD+gT5RqyGD/VfA16jEK7Q==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@next/swc-linux-x64-gnu@16.4.1':
-    resolution: {integrity: sha512-Istng1hMGp9TGO4lUqeKLd70MPN/OOkucVTP2Nmj+gLkwBgmPqUw8CJYBCC7nbl/B/23bBCcjCI5Hsh6hazC1A==}
+  '@next/swc-linux-x64-gnu@16.4.5':
+    resolution: {integrity: sha512-hPc+Fl+N22DAvqZHq559NmamXboOX5Lu8I5Wl0DezfrhTk1Zz21NQeYoZDmNI/NjTcrdsVxM72Fzn2lI+Q+vAw==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@next/swc-linux-x64-musl@16.4.1':
-    resolution: {integrity: sha512-aSC9wMNiZRRFVpPkPWBzRwLQxIGm/CiQcXyFF1XNcgodb+uMxdk7aSSGGpDXCbnvZdf4itjHxpOd5h7i7zaiYw==}
+  '@next/swc-linux-x64-musl@16.4.5':
+    resolution: {integrity: sha512-gbACYE8IP/jlprNTpiWXHb8N9CofOzpnEwH2SrIz1dUbiJf1FbDssDupCAPeP1Taxe8mgG20sGZamJI7KFOdZw==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@next/swc-win32-arm64-msvc@16.4.1':
-    resolution: {integrity: sha512-t/myvwFDlypMUjRvbBf8qLPyuaB0iXYYdBtwMt6DM6f+60wtGr4bSYholdPqNeV5VUXZhrpMwfza829kmhS3iA==}
+  '@next/swc-win32-arm64-msvc@16.4.5':
+    resolution: {integrity: sha512-+8gj++ZMo8H20Xh2ijjNqyFk5LPLw0AC4Fs4Tq/G94rjjQXhOjN4jgSWsWKPFsyY26hfIeemJIwKtMxOsp5GBA==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
 
-  '@next/swc-win32-x64-msvc@16.4.1':
-    resolution: {integrity: sha512-6ICqPo9awCkrtYNPhwkx1uU7rlFWrZRrIboDHS2LU+jv088UBYQtmJ25h6pCp27/+FZjF6BQ4Te4ErugyMeuBg==}
+  '@next/swc-win32-x64-msvc@16.4.5':
+    resolution: {integrity: sha512-qNZj66pYXnaWLiF9R9GUbfBdrCv7kC6TaZfIwB2KH5WPc/8pEM3nVOj8hpQhWJU8S94rlH5MPDcX15+RrgUhiw==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
@@ -1051,64 +1051,64 @@ packages:
   '@storybook/addon-actions@8.6.7':
     resolution: {integrity: sha512-XgZCwIcZGThEyD7e2q7rN/jzg7ZHUxn/ln403eex04jWAGBBbtC2IVuowwCWV8HwDihnhpCZEP6HlgjakOYZbQ==}
     peerDependencies:
-      storybook: ^8.6.17
+      storybook: ^8.6.19
 
   '@storybook/addon-backgrounds@8.6.7':
     resolution: {integrity: sha512-aDFzi83gDhYn0+FGjRYbY5TfBtoG/UgVr9Abi7s5ceabZRhPrYikMyFX0o8V3Z8COl6wUmWmF1luYE4MfXgN2g==}
     peerDependencies:
-      storybook: ^8.6.17
+      storybook: ^8.6.19
 
   '@storybook/addon-controls@8.6.7':
     resolution: {integrity: sha512-6ReB1Sc1qlqvAM7NUmtw2K1cKCgGBs8zYRgL44Q2ti+r55a2ownhm6WUm/kZs2ixSkV9ehm1osiqbGBfAn0Isw==}
     peerDependencies:
-      storybook: ^8.6.17
+      storybook: ^8.6.19
 
   '@storybook/addon-docs@8.6.7':
     resolution: {integrity: sha512-kgNPEVuLGNJE8EdVQi5Tg2DYgR66/gut07jvhqnJfNqUkj6UpBHad0JR1uwrd7xS3kJs29Fs7UyU87RJnSlwcg==}
     peerDependencies:
-      storybook: ^8.6.17
+      storybook: ^8.6.19
 
   '@storybook/addon-essentials@8.6.7':
     resolution: {integrity: sha512-PFT62xuknk4wD1hTZEnYbGP1mJFPlhk7zVVlMjoldMUhmbHsFRhdWCpo93Vu9E3BWVxFxL3Jj+UwSwH4uVmekQ==}
     peerDependencies:
-      storybook: ^8.6.17
+      storybook: ^8.6.19
 
   '@storybook/addon-highlight@8.6.7':
     resolution: {integrity: sha512-4KE1RF4XfqII7XrJPgf/1W0t0EWRKmik5Rrpb6WofXfgZ2QYzLFnyESjf67/g2TMgDnle2drfa/pt5tGV4+I2Q==}
     peerDependencies:
-      storybook: ^8.6.17
+      storybook: ^8.6.19
 
   '@storybook/addon-measure@8.6.7':
     resolution: {integrity: sha512-4dkkCltjKRcJH+ZMv5nbNT0LBQfcXIydVfN9mAvhDsiPFD5eZcHbN4XVfUslECWgrkaa/a6FE1W9PNEUBjCJaA==}
     peerDependencies:
-      storybook: ^8.6.17
+      storybook: ^8.6.19
 
   '@storybook/addon-onboarding@8.6.7':
     resolution: {integrity: sha512-40D1O9abhriKI/i4SQ7iyOMLusO8xFkyoMIBdx1iz4lfwO4cKhR5ymE4slAm+pYLc6+voD0EESCIHyXTEHDJxQ==}
     peerDependencies:
-      storybook: ^8.6.17
+      storybook: ^8.6.19
 
   '@storybook/addon-outline@8.6.7':
     resolution: {integrity: sha512-atCpCi2CqAWQwL1nu1l5VpIA4fRMnbD4RZMsEiib1suUfNyJv0RdsSgZhp/f+e9sUS0TtMdwhzWT36eEA7VxhQ==}
     peerDependencies:
-      storybook: ^8.6.17
+      storybook: ^8.6.19
 
   '@storybook/addon-toolbars@8.6.7':
     resolution: {integrity: sha512-gR+mRs+Cc5GINZdKgE7afJLFCSMHkz40+zzdrPu6yY2P4B3UOvuQpt+zC/Er5YQ31EEjIvM6/XMQTM0i2db8AA==}
     peerDependencies:
-      storybook: ^8.6.17
+      storybook: ^8.6.19
 
   '@storybook/addon-viewport@8.6.7':
     resolution: {integrity: sha512-kTrt6ByCbBIbqoRqQO9watDl5nSIKCC+R0/EmpEl6ZtzBV3l8trZHdvCHhIqOyv7nfaa7pIeTTG1GD6Gdrxk3w==}
     peerDependencies:
-      storybook: ^8.6.17
+      storybook: ^8.6.19
 
   '@storybook/blocks@8.6.7':
     resolution: {integrity: sha512-IFhIKO7R1UPpnoG/5tZH0FgC79oYgXNf+7aGUwq29M/CQWy6p/Pvp0y4P962btY1UZRol+SsU//33nH8o6yNRw==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-      storybook: ^8.6.17
+      storybook: ^8.6.19
     peerDependenciesMeta:
       react:
         optional: true
@@ -1118,13 +1118,13 @@ packages:
   '@storybook/builder-vite@8.6.7':
     resolution: {integrity: sha512-hgYnVu2cy8clrmDwidu4XjvFMTEi9WiblLH5cPI3LWQjVajIQmDpcWVp6kbD063sIOphh9zYP7cVKGO7ktMB/g==}
     peerDependencies:
-      storybook: ^8.6.17
-      vite: ^6.2.7
+      storybook: ^8.6.19
+      vite: ^6.4.2
 
   '@storybook/components@8.6.7':
     resolution: {integrity: sha512-8pnjH1w7PZ/Iiuve1/BJY7EO/kmu0qdE34X1ZM8DyHzuy33EL/PfUuhxNkrL4ayMXrEDp/EJMHx2bqO1RdRV6A==}
     peerDependencies:
-      storybook: ^8.6.17
+      storybook: ^8.6.19
 
   '@storybook/core@8.6.19':
     resolution: {integrity: sha512-o9TZn0YxSxjBOxkTlJWq9jFTZn53Wr83HNvX0k8YYxxA5evwt7kWubKs/RMTEIyXbsBKW7XUw7Cq9fLmhgJ3Bg==}
@@ -1137,7 +1137,7 @@ packages:
   '@storybook/csf-plugin@8.6.7':
     resolution: {integrity: sha512-HK7yQD4kFu04JOKnUwoFeR58r5WY6ucF0D8zfW4Gx+r8hBJ5K4t3z6k2dlIlRQF1X5+2vNkQOwD8liHjckuZ8Q==}
     peerDependencies:
-      storybook: ^8.6.17
+      storybook: ^8.6.19
 
   '@storybook/csf@0.1.13':
     resolution: {integrity: sha512-7xOOwCLGB3ebM87eemep89MYRFTko+D8qE7EdAAq74lgdqRR5cOUtYWJLjO2dLtP94nqoOdHJo6MdLLKzg412Q==}
@@ -1165,9 +1165,9 @@ packages:
       next: ^14.1.0 || ^15.0.0
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta
-      storybook: ^8.6.17
+      storybook: ^8.6.19
       typescript: '*'
-      vite: ^6.2.7
+      vite: ^6.4.2
     peerDependenciesMeta:
       typescript:
         optional: true
@@ -1190,24 +1190,24 @@ packages:
   '@storybook/instrumenter@8.6.7':
     resolution: {integrity: sha512-FeQiV0g5crCWs0P1wKY4xZzb4PxAYNcrm2+9LLGVqwnC7qzrSCPf0p10MlveVfwsen1m6Wbqfe+wl21c31Hfmg==}
     peerDependencies:
-      storybook: ^8.6.17
+      storybook: ^8.6.19
 
   '@storybook/manager-api@8.6.7':
     resolution: {integrity: sha512-BA8RxaLP07WGF660LWo7qB3Jomr/+MPuCZmuKPqXxPhfIovqYjr0hnugxJBjEah0ic31aNX4NucNfDRuV7F5sA==}
     peerDependencies:
-      storybook: ^8.6.17
+      storybook: ^8.6.19
 
   '@storybook/preview-api@8.6.7':
     resolution: {integrity: sha512-Rz83Nx43v3Dn9/SjhIsorkcx1gPmlclueuzf6YywJTqE1E/L4dgoe2mOA9MfF0jr0bh3TwEA2J3ii0Jstg1Orw==}
     peerDependencies:
-      storybook: ^8.6.17
+      storybook: ^8.6.19
 
   '@storybook/react-dom-shim@8.6.7':
     resolution: {integrity: sha512-+JH7gbRI6NRbt9o0l1rY4wFdeVt8wGRddm0b55OBlwBGlFo2nvGVOH73J4AGphXVhfY7z33I3TXIjXQ561UdEQ==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta
-      storybook: ^8.6.17
+      storybook: ^8.6.19
 
   '@storybook/react-vite@8.6.7':
     resolution: {integrity: sha512-KiTeYaZ+AUQ1AFHSItP8dhUbd2v7Qy8+BB7w64VxQMw/dw5n0Z38lo4Tzdlkn22q2smW2ce4QwAzh2pfTz3b8g==}
@@ -1216,8 +1216,8 @@ packages:
       '@storybook/test': 8.6.7
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta
-      storybook: ^8.6.17
-      vite: ^6.2.7
+      storybook: ^8.6.19
+      vite: ^6.4.2
     peerDependenciesMeta:
       '@storybook/test':
         optional: true
@@ -1229,7 +1229,7 @@ packages:
       '@storybook/test': 8.6.7
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta
-      storybook: ^8.6.17
+      storybook: ^8.6.19
       typescript: '>= 4.2.x'
     peerDependenciesMeta:
       '@storybook/test':
@@ -1245,17 +1245,17 @@ packages:
   '@storybook/test@8.6.7':
     resolution: {integrity: sha512-uF1JbBtdT7tuiXfEtHsUShBHIhm2vc0C39nKVJaTWyK9CybajXaj2Ny3IRa3oY9NKnklwGgN+kZ/Z9YiIOc4MQ==}
     peerDependencies:
-      storybook: ^8.6.17
+      storybook: ^8.6.19
 
   '@storybook/theming@8.6.19':
     resolution: {integrity: sha512-IRbIk5klNSnSqBye/0FgkkyyIbJjzW+p1qaKGOYI+yKRktLCInypl9bh5YFkaPpr0m4lk7wY/GzS0uXPL1gS3g==}
     peerDependencies:
-      storybook: ^8.6.17
+      storybook: ^8.6.19
 
   '@storybook/theming@8.6.7':
     resolution: {integrity: sha512-F/i4XS5bew9dvtNiHvDJF0mko1IUbPM9PUjTYPaw6cK8ytS0kdec703MsJ/GUA7seeEWBeGdZjV3ua0pys650A==}
     peerDependencies:
-      storybook: ^8.6.17
+      storybook: ^8.6.19
 
   '@swc/helpers@0.5.23':
     resolution: {integrity: sha512-5lSsMOTXURePglDfvuAQUqkGek9Hg2kksOYay2m0+XR++b2NWYL/4sWyuvVBIs8oKnJaxkdi9whaL/sqN13afw==}
@@ -2715,8 +2715,8 @@ packages:
   natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
 
-  next@16.4.1:
-    resolution: {integrity: sha512-uc657V62E34fOI6W5NtG9IzwsPcms0Z60grz2MJGtglgD+pTFnNt4Yw2PzaU622tfX4vhrDgLZzicE2YlhI20Q==}
+  next@16.4.5:
+    resolution: {integrity: sha512-rmdfsWosjTUO+6R0S3KokoIk6Kj0sWDRTe86tZHdqaWH/oXq/udX3/4xb+YQi7aWbyEFoglDU54kaifLCdXbBw==}
     engines: {node: '>=20.9.0'}
     hasBin: true
     peerDependencies:
@@ -2876,19 +2876,19 @@ packages:
     resolution: {integrity: sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
-      postcss: ^8.5.23
+      postcss: ^8.5.12
 
   postcss-js@4.0.1:
     resolution: {integrity: sha512-dDLF8pEO191hJMtlHFPRa8xsizHaM82MLfNkUHdUtVEV3tgTp5oj+8qbEqYM57SLfc74KSbw//4SeJma2LRVIw==}
     engines: {node: ^12 || ^14 || >= 16}
     peerDependencies:
-      postcss: ^8.5.23
+      postcss: ^8.5.12
 
   postcss-load-config@4.0.2:
     resolution: {integrity: sha512-bSVhyJGL00wMVoPUzAVAnbEoWyqRxkjv64tUl427SKnPrENtq6hJwUojroMz2VB+Q1edmi4IfrAPpami5VVgMQ==}
     engines: {node: '>= 14'}
     peerDependencies:
-      postcss: ^8.5.23
+      postcss: ^8.5.12
       ts-node: '>=9.0.0'
     peerDependenciesMeta:
       postcss:
@@ -2900,7 +2900,7 @@ packages:
     resolution: {integrity: sha512-HQbt28KulC5AJzG+cZtj9kvKB93CFCdLvog1WFLf1D+xmMvPGlBstkpTEZfK5+AN9hfJocyBFCNiqyS48bpgzQ==}
     engines: {node: '>=12.0'}
     peerDependencies:
-      postcss: ^8.5.23
+      postcss: ^8.5.12
 
   postcss-selector-parser@6.1.6:
     resolution: {integrity: sha512-BK87/Qgti3DIcgS2PaCVoteFIkjIFvCJBizZDIVSjdlFNg4Jv+SRqbN2JONb/qQUH4ZFqfXYF+izg15W2HVRvA==}
@@ -3433,8 +3433,8 @@ packages:
     peerDependencies:
       '@storybook/test': ^8.3.0
       next: ^14.1.0 || ^15.0.0
-      storybook: ^8.6.17
-      vite: ^6.2.7
+      storybook: ^8.6.19
+      vite: ^6.4.2
 
   vite@6.4.5:
     resolution: {integrity: sha512-4enwjFfi4IwtEh0w+jPzpLVOFQiPHmmzPxcHXQOyEur47o6u0jE573DmGpjA+7irXoMLYRZD5ZaFUEneS3abPg==}
@@ -3492,7 +3492,7 @@ packages:
       '@vitest/ui': 4.1.12
       happy-dom: '*'
       jsdom: '*'
-      vite: ^6.2.7
+      vite: ^6.4.2
     peerDependenciesMeta:
       '@edge-runtime/vm':
         optional: true
@@ -4185,7 +4185,7 @@ snapshots:
 
   '@next/env@15.5.18': {}
 
-  '@next/env@16.4.1': {}
+  '@next/env@16.4.5': {}
 
   '@next/eslint-plugin-next@16.3.1(eslint@10.8.1(jiti@1.21.7)(supports-color@7.2.0))':
     dependencies:
@@ -4194,28 +4194,28 @@ snapshots:
     transitivePeerDependencies:
       - eslint
 
-  '@next/swc-darwin-arm64@16.4.1':
+  '@next/swc-darwin-arm64@16.4.5':
     optional: true
 
-  '@next/swc-darwin-x64@16.4.1':
+  '@next/swc-darwin-x64@16.4.5':
     optional: true
 
-  '@next/swc-linux-arm64-gnu@16.4.1':
+  '@next/swc-linux-arm64-gnu@16.4.5':
     optional: true
 
-  '@next/swc-linux-arm64-musl@16.4.1':
+  '@next/swc-linux-arm64-musl@16.4.5':
     optional: true
 
-  '@next/swc-linux-x64-gnu@16.4.1':
+  '@next/swc-linux-x64-gnu@16.4.5':
     optional: true
 
-  '@next/swc-linux-x64-musl@16.4.1':
+  '@next/swc-linux-x64-musl@16.4.5':
     optional: true
 
-  '@next/swc-win32-arm64-msvc@16.4.1':
+  '@next/swc-win32-arm64-msvc@16.4.5':
     optional: true
 
-  '@next/swc-win32-x64-msvc@16.4.1':
+  '@next/swc-win32-x64-msvc@16.4.5':
     optional: true
 
   '@nodelib/fs.scandir@2.1.5':
@@ -4482,19 +4482,19 @@ snapshots:
       - react
       - react-dom
 
-  '@storybook/experimental-nextjs-vite@8.6.7(@babel/core@7.29.13(supports-color@7.2.0))(@storybook/test@8.6.7(storybook@8.6.19(supports-color@7.2.0)))(@types/node@20.17.25)(next@16.4.1(@babel/core@7.29.13(supports-color@7.2.0))(@types/node@20.17.25)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(rollup@4.62.4)(storybook@8.6.19(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.8.2)(vite@6.4.5(@types/node@20.17.25)(jiti@1.21.7)(terser@5.39.0)(yaml@2.9.1))':
+  '@storybook/experimental-nextjs-vite@8.6.7(@babel/core@7.29.13(supports-color@7.2.0))(@storybook/test@8.6.7(storybook@8.6.19(supports-color@7.2.0)))(@types/node@20.17.25)(next@16.4.5(@babel/core@7.29.13(supports-color@7.2.0))(@types/node@20.17.25)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(rollup@4.62.4)(storybook@8.6.19(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.8.2)(vite@6.4.5(@types/node@20.17.25)(jiti@1.21.7)(terser@5.39.0)(yaml@2.9.1))':
     dependencies:
       '@storybook/builder-vite': 8.6.7(storybook@8.6.19(supports-color@7.2.0))(vite@6.4.5(@types/node@20.17.25)(jiti@1.21.7)(terser@5.39.0)(yaml@2.9.1))
       '@storybook/react': 8.6.7(@storybook/test@8.6.7(storybook@8.6.19(supports-color@7.2.0)))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(storybook@8.6.19(supports-color@7.2.0))(typescript@5.8.2)
       '@storybook/react-vite': 8.6.7(@storybook/test@8.6.7(storybook@8.6.19(supports-color@7.2.0)))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(rollup@4.62.4)(storybook@8.6.19(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.8.2)(vite@6.4.5(@types/node@20.17.25)(jiti@1.21.7)(terser@5.39.0)(yaml@2.9.1))
       '@storybook/test': 8.6.7(storybook@8.6.19(supports-color@7.2.0))
-      next: 16.4.1(@babel/core@7.29.13(supports-color@7.2.0))(@types/node@20.17.25)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      next: 16.4.5(@babel/core@7.29.13(supports-color@7.2.0))(@types/node@20.17.25)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       react: 19.2.8
       react-dom: 19.2.8(react@19.2.8)
       storybook: 8.6.19(supports-color@7.2.0)
       styled-jsx: 5.1.6(@babel/core@7.29.13(supports-color@7.2.0))(react@19.2.8)
       vite: 6.4.5(@types/node@20.17.25)(jiti@1.21.7)(terser@5.39.0)(yaml@2.9.1)
-      vite-plugin-storybook-nextjs: 1.1.2(@storybook/test@8.6.7(storybook@8.6.19(supports-color@7.2.0)))(next@16.4.1(@babel/core@7.29.13(supports-color@7.2.0))(@types/node@20.17.25)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(storybook@8.6.19(supports-color@7.2.0))(vite@6.4.5(@types/node@20.17.25)(jiti@1.21.7)(terser@5.39.0)(yaml@2.9.1))
+      vite-plugin-storybook-nextjs: 1.1.2(@storybook/test@8.6.7(storybook@8.6.19(supports-color@7.2.0)))(next@16.4.5(@babel/core@7.29.13(supports-color@7.2.0))(@types/node@20.17.25)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(storybook@8.6.19(supports-color@7.2.0))(vite@6.4.5(@types/node@20.17.25)(jiti@1.21.7)(terser@5.39.0)(yaml@2.9.1))
     optionalDependencies:
       sharp: 0.35.5(@types/node@20.17.25)
       typescript: 5.8.2
@@ -6374,9 +6374,9 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  next@16.4.1(@babel/core@7.29.13(supports-color@7.2.0))(@types/node@20.17.25)(react-dom@19.2.8(react@19.2.8))(react@19.2.8):
+  next@16.4.5(@babel/core@7.29.13(supports-color@7.2.0))(@types/node@20.17.25)(react-dom@19.2.8(react@19.2.8))(react@19.2.8):
     dependencies:
-      '@next/env': 16.4.1
+      '@next/env': 16.4.5
       '@swc/helpers': 0.5.23
       baseline-browser-mapping: 2.11.35
       caniuse-lite: 1.0.30001823
@@ -6385,14 +6385,14 @@ snapshots:
       react-dom: 19.2.8(react@19.2.8)
       styled-jsx: 5.1.6(@babel/core@7.29.13(supports-color@7.2.0))(react@19.2.8)
     optionalDependencies:
-      '@next/swc-darwin-arm64': 16.4.1
-      '@next/swc-darwin-x64': 16.4.1
-      '@next/swc-linux-arm64-gnu': 16.4.1
-      '@next/swc-linux-arm64-musl': 16.4.1
-      '@next/swc-linux-x64-gnu': 16.4.1
-      '@next/swc-linux-x64-musl': 16.4.1
-      '@next/swc-win32-arm64-msvc': 16.4.1
-      '@next/swc-win32-x64-msvc': 16.4.1
+      '@next/swc-darwin-arm64': 16.4.5
+      '@next/swc-darwin-x64': 16.4.5
+      '@next/swc-linux-arm64-gnu': 16.4.5
+      '@next/swc-linux-arm64-musl': 16.4.5
+      '@next/swc-linux-x64-gnu': 16.4.5
+      '@next/swc-linux-x64-musl': 16.4.5
+      '@next/swc-win32-arm64-msvc': 16.4.5
+      '@next/swc-win32-x64-msvc': 16.4.5
       sharp: 0.35.5(@types/node@20.17.25)
     transitivePeerDependencies:
       - '@babel/core'
@@ -7235,14 +7235,14 @@ snapshots:
 
   uuid@11.1.1: {}
 
-  vite-plugin-storybook-nextjs@1.1.2(@storybook/test@8.6.7(storybook@8.6.19(supports-color@7.2.0)))(next@16.4.1(@babel/core@7.29.13(supports-color@7.2.0))(@types/node@20.17.25)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(storybook@8.6.19(supports-color@7.2.0))(vite@6.4.5(@types/node@20.17.25)(jiti@1.21.7)(terser@5.39.0)(yaml@2.9.1)):
+  vite-plugin-storybook-nextjs@1.1.2(@storybook/test@8.6.7(storybook@8.6.19(supports-color@7.2.0)))(next@16.4.5(@babel/core@7.29.13(supports-color@7.2.0))(@types/node@20.17.25)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(storybook@8.6.19(supports-color@7.2.0))(vite@6.4.5(@types/node@20.17.25)(jiti@1.21.7)(terser@5.39.0)(yaml@2.9.1)):
     dependencies:
       '@next/env': 15.5.18
       '@storybook/test': 8.6.7(storybook@8.6.19(supports-color@7.2.0))
       image-size: 2.1.0
       magic-string: 0.30.21
       module-alias: 2.2.3
-      next: 16.4.1(@babel/core@7.29.13(supports-color@7.2.0))(@types/node@20.17.25)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      next: 16.4.5(@babel/core@7.29.13(supports-color@7.2.0))(@types/node@20.17.25)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       storybook: 8.6.19(supports-color@7.2.0)
       ts-dedent: 2.2.0
       vite: 6.4.5(@types/node@20.17.25)(jiti@1.21.7)(terser@5.39.0)(yaml@2.9.1)
